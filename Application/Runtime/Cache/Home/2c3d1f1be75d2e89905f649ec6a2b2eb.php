@@ -12,7 +12,7 @@
 var url = 'https://www.aparesse.com/index.php?m=Home&c=WeChat&a=index';
 $.ajax({
     type: "GET",
-    url: '/index.php?m=Home&c=WeChat&a=index',
+    url: url,
     dataType: "json"
 })
 .done(function(json){
