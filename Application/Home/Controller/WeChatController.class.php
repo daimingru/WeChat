@@ -3,10 +3,9 @@ namespace Home\Controller;
 use Think\Controller;
 class WeChatController extends Controller {
     public function index(){
-      $orderId = I("orderId");
-      $rejectionRemarks = I("rejectionRemarks");
-      $data['status']  = $orderId;
-      $data['content'] = $rejectionRemarks;
+
+      $data['status']  = 1;
+      $data['content'] = 2;
       $this->ajaxReturn($data);
     }
 }

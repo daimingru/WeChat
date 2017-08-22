@@ -9,10 +9,10 @@
 <body>
 <script src="__PUBLIC__/jquery.min.js"></script>
 <script>
+var url = 'https://www.aparesse.com/index.php?m=Home&c=WeChat&a=index';
 $.ajax({
-    type: "POST",
-    url: '/index.php?m=Home&c=WeChat&a=index',
-    data: {orderId: 1,rejectionRemarks: 2},
+    type: "GET",
+    url: url,
     dataType: "json"
 })
 .done(function(json){
