@@ -90,4 +90,52 @@ class WeChatController extends Controller {
     $this->ajaxReturn($data);
   }
 
+  //获取吉他谱列表
+  public function getImg(){
+    $id = I('id');
+    $data = array();
+    if($id == 1){
+      $data['name'] = '《春天里》';
+      $data['author'] = '汪峰';
+      $data['time'] = '2017-08-23';
+      $data['id'] = '1';
+      $data['data'] = array();
+      $data['data'][0]['src'] = 'http://www.aparesse.com/Update/images/guita-1.png';
+      $data['data'][1]['src'] = 'http://www.aparesse.com/Update/images/guita-2.png';
+    }elseif ($id == 2) {
+      $data['name'] = '《春风十里》';
+      $data['author'] = '鹿先森';
+      $data['time'] = '2017-08-20';
+      $data['id'] = '1';
+      $data['data'] = array();
+      $data['data'][0]['src'] = 'http://www.aparesse.com/Update/images/cfsl/1.png';
+      $data['data'][1]['src'] = 'http://www.aparesse.com/Update/images/cfsl/2.png';
+    }elseif ($id == 3) {
+      $data['name'] = '《刚好遇见你》';
+      $data['author'] = '李玉刚';
+      $data['time'] = '2017-08-20';
+      $data['id'] = '1';
+      $data['data'] = array();
+      $data['data'][0]['src'] = 'http://www.aparesse.com/Update/images/ghyjn/1.png';
+      $data['data'][1]['src'] = 'http://www.aparesse.com/Update/images/ghyjn/2.png';
+    }elseif ($id == 4) {
+      $data['name'] = '《天空之城》';
+      $data['author'] = '久石让';
+      $data['time'] = '2017-08-20';
+      $data['id'] = '1';
+      $data['data'] = array();
+      $data['data'][0]['src'] = 'http://www.aparesse.com/Update/images/tkzc/1.png';
+      $data['data'][1]['src'] = 'http://www.aparesse.com/Update/images/tkzc/2.png';
+    }else{
+      $data['name'] = '《漂洋过海来看你》';
+      $data['author'] = '周深';
+      $data['time'] = '2017-08-19';
+      $data['id'] = '1';
+      $data['data'] = array();
+      $data['data'][0]['src'] = 'http://www.aparesse.com/Update/images/pyghlkn/1.png';
+      $data['data'][1]['src'] = 'http://www.aparesse.com/Update/images/pyghlkn/2.png';
+    }
+
+    $this->ajaxReturn($data);
+  }
 }
