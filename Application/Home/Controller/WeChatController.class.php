@@ -48,7 +48,7 @@ class WeChatController extends Controller {
       $data['title'] = '吉他谱反复记号的作用以及看法';
       $data['author'] = 'Frank';
       $data['time'] = '2017-08-18';
-      $data['count'] = '<text>吉他谱中我们经常会看到最下面表格中的那些反复标记/记号，其作用是简化歌曲相同部分的段落。也使得在制谱时可以不用多次去记录相同段落的谱子，从而减少工作量，还有一个好处就是可以有效的控制歌曲谱子的页数。反复标记的看法请参考下面表格。</text><img src="https://www.aparesse.com/Public/images/article2.jpg" />';
+      $data['count'] = '<text>吉他谱中我们经常会看到最下面表格中的那些反复标记/记号，其作用是简化歌曲相同部分的段落。也使得在制谱时可以不用多次去记录相同段落的谱子，从而减少工作量，还有一个好处就是可以有效的控制歌曲谱子的页数。反复标记的看法请参考下面表格。</text><img src="https://www.aparesse.com/Public/images/article2.png" />';
     }
 
     $this->ajaxReturn($data);
