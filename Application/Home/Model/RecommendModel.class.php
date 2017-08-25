@@ -9,6 +9,9 @@ class RecommendModel extends BaseModel {
     public function getIndexlist(){
         $sql  = 'SELECT id, title, time, img, content FROM __PREFIX__recommend ';
         $rs 	= $this->query($sql);
+        foreach ($rs as $key => $value) {
+          $rs['content'] = str_replace("<>",""]);
+        }
   		  return $rs;
     }
 }

@@ -41,7 +41,14 @@ class BaseModel extends Model {
 		return true;
 	}
 
-	/**
+  /**
+	 * 输入sql调试信息
+	 */
+	public function logSql($m){
+		echo $m->getLastSql();
+	}
+
+  /**
 	 * 输入sql调试信息
 	 */
 	public function logSql($m){
