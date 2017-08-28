@@ -24,4 +24,14 @@ class ScoreModel extends BaseModel {
       $data['data'] = $rs;
       return $data;
   }
+
+  //曲谱详情
+  public function getScoreDetails($id){
+      $type = '';
+      $sql  = 'SELECT * FROM guitar_score where id = '.$id;
+      $rs 	= $this->query($sql);
+      $rs[0]['data'] = array();
+      $rs[0]['data'] = explode(",", $rs[0]['src']);
+      return $rs;
+  }
 }
