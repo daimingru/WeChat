@@ -19,8 +19,9 @@ class RecommendModel extends BaseModel {
 
   //文章详情
   public function getArticle($id){
+      $data = array();
       $sql  = 'SELECT title, author, time, content FROM __PREFIX__recommend where id ='.$id;
       $rs 	= $this->query($sql);
-      return $rs;
+      return $rs[0];
   }
 }
