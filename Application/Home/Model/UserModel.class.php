@@ -6,15 +6,24 @@
  */
 namespace Home\Model;
 class UserModel extends BaseModel {
-  //曲谱列表
-  public function saveInfo($userinfo,$code){
-      var_dump($userinfo);
-      var_dump($code);
-      exit();
-      $sql  = "INSERT INTO __PREFIX__user (`nikeName`, `gender`, `province`, `city`, `avatarUrl`, `country`, `language`) VALUES ('', '', '', '', '')";
-      $rs 	= $this->query($sql);
-      $data['data'] = $rs;
+
+  public function saveInfo(){
+      $appID = 'wx4c9e5b7490b9edee';
+      $AppSecret = 'd13a53d06c90ea288d90881bae6ce942';
+      $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code=0817hSyt08MnPe1s6rwt0ikOyt07hSy6&grant_type=authorization_code';
+      $data = $this -> getCurl($url);
       return $data;
+  }
+
+  function getCurl($url){
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL,$url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    $result = curl_exec($ch);
+    curl_close ($ch);
+    return $result;
   }
 
 }
