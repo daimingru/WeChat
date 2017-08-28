@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class WeChatController extends Controller {
+class TestController extends Controller {
   //首页推荐
   public function index(){
     $m = D('Home/Recommend');

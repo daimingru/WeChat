@@ -10,7 +10,8 @@ class RecommendModel extends BaseModel {
         $sql  = 'SELECT id, title, time, img, content FROM __PREFIX__recommend ';
         $rs 	= $this->query($sql);
         foreach ($rs as $key => $value) {
-          $value['content'] = strip_tags($value['content']);
+          $value['content'] = mb_substr(strip_tags($value['content']),0,30);
+          $value['src'] = '../article/article?id='.$value['id'];
         }
         var_dump($value);
         exit();
