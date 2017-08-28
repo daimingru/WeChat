@@ -19,7 +19,6 @@ class ScoreModel extends BaseModel {
         $data['title'] = '最新';
         $type = 'ORDER BY id desc';
       }
-      var_dump($type);
       $sql  = 'SELECT id, name, author FROM __PREFIX__score '.$type;
       $rs 	= $this->query($sql);
       $data['data'] = $rs;
