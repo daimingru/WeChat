@@ -33,4 +33,14 @@ class TestController extends Controller {
     $data = $m -> getScoreDetails($id);
     $this->ajaxReturn($data);
   }
+
+  //保存用户信息
+  public function saveInfo(){
+    $userinfo = I('userinfo');
+    $code = I('code');
+    $m = D('Home/User');
+    $data = $m -> saveInfo($userinfo,$code);
+    $this->ajaxReturn($data);
+  }
+
 }
