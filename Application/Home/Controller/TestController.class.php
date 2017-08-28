@@ -38,8 +38,11 @@ class TestController extends Controller {
   public function saveInfo(){
     $userinfo = I('userinfo');
     $code = I('code');
-    $m = D('Home/User');
-    $data = $m -> saveInfo($userinfo,$code);
+    $data = array();
+    $data['userinfo']=$userinfo;
+    $data['code']=$code;
+    // $m = D('Home/User');
+    // $data = $m -> saveInfo($userinfo,$code);
     $this->ajaxReturn($data);
   }
 

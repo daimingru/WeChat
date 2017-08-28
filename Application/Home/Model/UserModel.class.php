@@ -11,7 +11,7 @@ class UserModel extends BaseModel {
       var_dump($userinfo);
       var_dump($code);
       exit();
-      $sql  = 'INSERT INTO __PREFIX__user (`nikeName`, `gender`, `province`, `city`, `avatarUrl`, `country`, `language`) VALUES ('', '', '', '', '')';
+      $sql  = "INSERT INTO __PREFIX__user (`nikeName`, `gender`, `province`, `city`, `avatarUrl`, `country`, `language`) VALUES ('', '', '', '', '')";
       $rs 	= $this->query($sql);
       $data['data'] = $rs;
       return $data;
