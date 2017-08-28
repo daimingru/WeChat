@@ -13,8 +13,6 @@ class RecommendModel extends BaseModel {
           $value['content'] = mb_substr(strip_tags($value['content']),0,30);
           $value['src'] = '../article/article?id='.$value['id'];
         }
-        var_dump($value);
-        exit();
   		  return $rs;
     }
 }
