@@ -7,9 +7,22 @@
 namespace Home\Model;
 class ScoreModel extends BaseModel {
   //曲谱列表
-  public function getScorelist(){
-      $sql  = 'SELECT id, name, author FROM __PREFIX__score ';
+  public function getScorelist($id){
+      $type = '';
+      $data = array();
+      $data['title'] = '全部';
+      $data['data'] = array();
+      if($id == 1){
+        $data['title'] = '最热';
+        $type = 'ORDER BY follow desc';
+      }elseif ($id == 2) {
+        $data['title'] = '最新';
+        $type = 'ORDER BY id desc';
+      }
+      var_dump($type);
+      $sql  = 'SELECT id, name, author FROM __PREFIX__score '.$type;
       $rs 	= $this->query($sql);
-      return $rs;
+      $data['data'] = $rs;
+      return $data;
   }
 }

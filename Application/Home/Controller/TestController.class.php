@@ -37,16 +37,7 @@ class TestController extends Controller {
   public function getScorelist(){
     $id = I('id');
     $m = D('Home/Score');
-    $data = array();
-    $data['data'] = array();
-    $data['data'] = $m -> getScorelist();
-    if($id == 1){
-      $data['title'] = '最热';
-    }elseif ($id == 2) {
-      $data['title'] = '最新';
-    }else{
-      $data['title'] = '全部';
-    }
+    $data = $m -> getScorelist($id);
     $this->ajaxReturn($data);
   }
 
