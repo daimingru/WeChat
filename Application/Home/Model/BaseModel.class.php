@@ -42,10 +42,10 @@ class BaseModel extends Model {
 	}
 
   /**
-	 * 输入sql调试信息
+	 * 去除html标签
 	 */
-	public function logSql($m){
-		echo $m->getLastSql();
+	public function replaceHtml($str){
+
 	}
 
   /**
