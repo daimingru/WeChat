@@ -16,15 +16,4 @@ class RecommendModel extends BaseModel {
       }
       return $rs;
   }
-
-  //曲谱列表
-  public function getScorelist(){
-      $sql  = 'SELECT id, name, author FROM __PREFIX__score ';
-      $rs 	= $this->query($sql);
-      foreach ($rs as $key => $value) {
-        $rs[$key]['content'] = mb_substr($value['content'],0,35);
-        $rs[$key]['src'] = '../article/article?id='.$value['id'];
-      }
-      return $rs;
-  }
 }

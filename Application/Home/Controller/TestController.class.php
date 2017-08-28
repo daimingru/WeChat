@@ -34,30 +34,12 @@ class TestController extends Controller {
   }
 
   //获取吉他谱列表
-  public function getList(){
+  public function getScorelist(){
     $id = I('id');
+    $m = D('Home/Score');
     $data = array();
     $data['data'] = array();
-    $data['data'][0]['name'] = '《春天里》';
-    $data['data'][0]['author'] = '汪峰';
-    $data['data'][0]['time'] = '2017-08-23';
-    $data['data'][0]['id'] = '1';
-    $data['data'][1]['name'] = '《春风十里》';
-    $data['data'][1]['author'] = '鹿先森';
-    $data['data'][1]['time'] = '2017-08-20';
-    $data['data'][1]['id'] = '2';
-    $data['data'][2]['name'] = '《刚好遇见你》';
-    $data['data'][2]['author'] = '李玉刚';
-    $data['data'][2]['time'] = '2017-08-20';
-    $data['data'][2]['id'] = '3';
-    $data['data'][3]['name'] = '《天空之城》';
-    $data['data'][3]['author'] = '久石让';
-    $data['data'][3]['time'] = '2017-08-20';
-    $data['data'][3]['id'] = '4';
-    $data['data'][4]['name'] = '《漂洋过海来看你》';
-    $data['data'][4]['author'] = '周深';
-    $data['data'][4]['time'] = '2017-08-19';
-    $data['data'][4]['id'] = '5';
+    $data['data'] = $m -> getScorelist();
     if($id == 1){
       $data['title'] = '最热';
     }elseif ($id == 2) {
@@ -65,7 +47,6 @@ class TestController extends Controller {
     }else{
       $data['title'] = '全部';
     }
-
     $this->ajaxReturn($data);
   }
 
