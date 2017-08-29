@@ -16,7 +16,7 @@ class UserModel extends BaseModel {
       $userinfo = json_decode($userinfo,true);
       //
       var_dump($userinfo);
-      $User = M("guitar_user"); // 实例化User对象
+      $User = M("user"); // 实例化User对象
       $userinfo['openid'] = $data['openid'];
       $User->add($userinfo);
       return $User;
