@@ -15,13 +15,12 @@ class UserModel extends BaseModel {
       $data = json_decode($data,true);
       $userinfo = '{"nickName":"programmer","gender":1,"language":"zh_CN","city":"Yancheng","province":"Jiangsu","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/LjQmhzIQCrFBysibGEohkZicduKPux035cE9wUjsmMoHctG1gCOZcOPztgUe3QLMMUiaLDH0GugOwn6wmR934CibuA/0"}';
       $userinfo = json_decode($userinfo,true);
-      $userinfo['openid'] = $data['openid'];
-      if($userinfo['openid']){
+      //$userinfo['openid'] = $data['openid'];
+      if($data['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$userinfo['openid'].'"';
       $rs 	= $this->query($sql);
         if(!$rs){
           $User = M("user"); // 实例化User对象
-          $userinfo['openid'] = $data['openid'];
           $User->add($userinfo);
         }
         $User['status'] = 200;
