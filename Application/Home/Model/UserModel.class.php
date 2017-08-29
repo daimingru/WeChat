@@ -14,6 +14,8 @@ class UserModel extends BaseModel {
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       $userinfo = json_decode($userinfo,true);
+      return is_array($userinfo);
+      exit();
       //$userinfo['openid'] = $data['openid'];
       if($data['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$userinfo['openid'].'"';
