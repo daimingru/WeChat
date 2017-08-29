@@ -10,14 +10,11 @@ class UserModel extends BaseModel {
   public function saveInfo($userinfo,$code){
       $appID = 'wx4c9e5b7490b9edee';
       $AppSecret = 'd13a53d06c90ea288d90881bae6ce942';
-      $userinfo = '{"nickName":"programmer","gender":1,"language":"zh_CN","city":"Yancheng","province":"Jiangsu","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/LjQmhzIQCrFBysibGEohkZicduKPux035cE9wUjsmMoHctG1gCOZcOPztgUe3QLMMUiaLDH0GugOwn6wmR934CibuA/0"}';
       $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code='.$code.'&grant_type=authorization_code';
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       $userinfo = json_decode($userinfo,true);
-      $userinfo['openid'] = $data['code'];
-      return $data;
-      exit();
+      $userinfo['openid'] = $data['openid'];
       if($userinfo['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ='.$userinfo['openid'];
       $rs 	= $this->query($sql);
