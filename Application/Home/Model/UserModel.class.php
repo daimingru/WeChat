@@ -26,9 +26,10 @@ class UserModel extends BaseModel {
         }
         $User['status'] = 200;
         $User['msg'] = 'success';
+      }else{
+        $User['status'] = 31001;
+        $User['msg'] = '用户未同意授权';
       }
-      $User['status'] = 31001;
-      $User['msg'] = '用户未同意授权';
       return $User;
   }
 
