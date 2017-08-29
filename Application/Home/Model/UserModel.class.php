@@ -14,10 +14,12 @@ class UserModel extends BaseModel {
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       $userinfo = json_decode($userinfo,true);
-      //$data['openid']
+      //
       var_dump($userinfo);
-      exit();
-      return $data;
+      $User = M("guitar_user"); // 实例化User对象
+      $userinfo['openid'] = $data['openid'];
+      $User->add($userinfo);
+      return $User;
   }
 
   function getCurl($url){
