@@ -12,13 +12,14 @@ class UserModel extends BaseModel {
       $AppSecret = 'd13a53d06c90ea288d90881bae6ce942';
       $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code='.$code.'&grant_type=authorization_code';
       $data = $this -> getCurl($url);
+      $userinfo = "'"+$userinfo+"'";
       $data = json_decode($data,true);
       $userinfo = json_decode($userinfo);
       return $userinfo;
       exit();
       //$userinfo['openid'] = $data['openid'];
       if($data['openid']){
-      $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$userinfo['openid'].'"';
+      $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
       $rs 	= $this->query($sql);
         if(!$rs){
           $User = M("user"); // 实例化User对象
