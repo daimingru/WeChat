@@ -13,9 +13,9 @@ class UserModel extends BaseModel {
       $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code='.$code.'&grant_type=authorization_code';
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
-      $userinfo = json_decode($userinfo,true);
+      $userinfo = json_decode($userinfo);
       //
-      return $userinfo['nickName'];
+      return $userinfo->{"nickName"};
       exit();
       $User = M("user"); // 实例化User对象
       $userinfo['openid'] = $data['openid'];
