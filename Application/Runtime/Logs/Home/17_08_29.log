@@ -1,0 +1,292 @@
+[ 2017-08-29T11:09:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T14:31:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T14:31:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-29T14:32:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-29T14:32:22+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-29T14:32:38+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+
+[ 2017-08-29T14:32:41+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-29T14:32:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+SQL: INSERT INTO `guitar_user` (`nickName`,`gender`,`language`,`city`,`province`,`country`,`avatarUrl`) VALUES ('programmer','1','zh_CN','Yancheng','Jiangsu','China','https://wx.qlogo.cn/mmopen/LjQmhzIQCrFBysibGEohkZicduKPux035cE9wUjsmMoHctG1gCOZcOPztgUe3QLMMUiaLDH0GugOwn6wmR934CibuA/0') [ RunTime:0.0060s ]
+
+[ 2017-08-29T14:33:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+SQL: INSERT INTO `guitar_user` (`nickName`,`gender`,`language`,`city`,`province`,`country`,`avatarUrl`,`openid`) VALUES ('programmer','1','zh_CN','Yancheng','Jiangsu','China','https://wx.qlogo.cn/mmopen/LjQmhzIQCrFBysibGEohkZicduKPux035cE9wUjsmMoHctG1gCOZcOPztgUe3QLMMUiaLDH0GugOwn6wmR934CibuA/0','d13a53d06c90ea288d90881bae6ce942') [ RunTime:0.0070s ]
+
+[ 2017-08-29T14:35:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'openid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_score where openid =d13a53d06c90ea288d90881bae6ce942
+ERR: 1054:Unknown column 'openid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_score where openid =d13a53d06c90ea288d90881bae6ce942
+
+[ 2017-08-29T14:35:43+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_user where openid =d13a53d06c90ea288d90881bae6ce942
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_user where openid =d13a53d06c90ea288d90881bae6ce942
+
+[ 2017-08-29T14:36:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+
+[ 2017-08-29T14:36:08+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+
+[ 2017-08-29T14:37:19+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT nickName FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT nickName FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+
+[ 2017-08-29T14:37:20+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT nickName FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT nickName FROM guitar_user where openid =`d13a53d06c90ea288d90881bae6ce942`
+
+[ 2017-08-29T14:37:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0190s ]
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT nickName FROM guitar_user where openid =d13a53d06c90ea288d90881bae6ce942
+ERR: 1054:Unknown column 'd13a53d06c90ea288d90881bae6ce942' in 'where clause'
+ [ SQL语句 ] : SELECT nickName FROM guitar_user where openid =d13a53d06c90ea288d90881bae6ce942
+
+[ 2017-08-29T14:38:19+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+SQL: SELECT nickName FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce942" [ RunTime:0.0070s ]
+
+[ 2017-08-29T14:38:23+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce942" [ RunTime:0.0080s ]
+
+[ 2017-08-29T14:38:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce9421" [ RunTime:0.0060s ]
+
+[ 2017-08-29T14:39:00+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce9421" [ RunTime:0.0080s ]
+
+[ 2017-08-29T14:39:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce942" [ RunTime:0.0070s ]
+
+[ 2017-08-29T14:39:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce942" [ RunTime:0.0070s ]
+
+[ 2017-08-29T14:39:14+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce942s" [ RunTime:0.0090s ]
+
+[ 2017-08-29T14:40:17+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T14:40:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-29T14:40:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-29T14:40:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T14:40:41+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM guitar_user where openid ="d13a53d06c90ea288d90881bae6ce942s" [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: openid E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 23 行.
+SQL: INSERT INTO `guitar_user` (`nickName`,`gender`,`language`,`city`,`province`,`country`,`avatarUrl`,`openid`) VALUES ('programmer','1','zh_CN','Yancheng','Jiangsu','China','https://wx.qlogo.cn/mmopen/LjQmhzIQCrFBysibGEohkZicduKPux035cE9wUjsmMoHctG1gCOZcOPztgUe3QLMMUiaLDH0GugOwn6wmR934CibuA/0',NULL) [ RunTime:0.0060s ]
+

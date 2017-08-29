@@ -1,0 +1,1730 @@
+[ 2017-08-28T10:14:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0810s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:14:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0050s ]
+
+[ 2017-08-28T10:14:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:14:07+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0150s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0100s ]
+
+[ 2017-08-28T10:15:48+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0090s ]
+
+[ 2017-08-28T10:16:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0080s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:20:47+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0090s ]
+
+[ 2017-08-28T10:21:04+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0050s ]
+
+[ 2017-08-28T10:21:04+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:21:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:21:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:21:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:21:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=WeChat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:21:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Test
+
+[ 2017-08-28T10:22:27+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Test
+
+[ 2017-08-28T10:22:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:24:35+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0110s ]
+
+[ 2017-08-28T10:25:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:25:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0100s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:25:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0090s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:25:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:25:25+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0080s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:25:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:26:12+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0080s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:26:18+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:26:20+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0100s ]
+
+[ 2017-08-28T10:26:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:26:56+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0090s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:26:57+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:27:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:27:04+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:27:09+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:34+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:28:34+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:28:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0080s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:28:40+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0100s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0090s ]
+
+[ 2017-08-28T10:28:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0050s ]
+
+[ 2017-08-28T10:28:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:28:43+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:43+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0090s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:28:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:28:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:28:47+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:28:47+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:28:47+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0090s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:29:00+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-28T10:29:03+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:29:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:30:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:38:17+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0100s ]
+
+[ 2017-08-28T10:38:20+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:38:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:39:25+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:39:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:39:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0110s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0150s ]
+
+[ 2017-08-28T10:39:27+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:32+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0050s ]
+
+[ 2017-08-28T10:39:32+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0090s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0050s ]
+
+[ 2017-08-28T10:39:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:34+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:39:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:42:22+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+NOTIC: [8] Array to string conversion E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 14 行.
+NOTIC: [8] Array to string conversion E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 14 行.
+NOTIC: [8] Array to string conversion E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 14 行.
+
+[ 2017-08-28T10:42:40+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:42:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0050s ]
+
+[ 2017-08-28T10:43:20+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0100s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:43:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0220s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0210s ]
+
+[ 2017-08-28T10:44:23+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0270s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0240s ]
+NOTIC: [8] Undefined variable: src E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 16 行.
+
+[ 2017-08-28T10:44:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0140s ]
+
+[ 2017-08-28T10:45:22+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0080s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:45:23+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:46:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:46:43+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:47:29+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T10:47:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0250s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0250s ]
+
+[ 2017-08-28T10:47:49+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T10:47:55+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0080s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T10:48:04+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:05:03+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-28T11:05:14+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T11:06:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T11:06:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0130s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0140s ]
+
+[ 2017-08-28T11:06:35+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: data E:\test\WeChat\Application\Home\Controller\TestController.class.php 第 50 行.
+
+[ 2017-08-28T11:06:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0120s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0140s ]
+
+[ 2017-08-28T11:06:59+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0160s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0080s ]
+
+[ 2017-08-28T11:06:59+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T11:06:59+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:07:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0130s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:07:18+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: name E:\test\WeChat\Application\Home\Controller\TestController.class.php 第 50 行.
+
+[ 2017-08-28T11:07:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT id, title, time, img, content FROM guitar_recommend  [ RunTime:0.0060s ]
+
+[ 2017-08-28T11:07:39+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0120s ]
+ERR: Think\Model:getIndexlist方法不存在！
+
+[ 2017-08-28T11:07:49+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:08:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:08:12+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:08:18+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0080s ]
+
+[ 2017-08-28T11:17:21+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:17:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0090s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:17:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:18:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0340s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0270s ]
+
+[ 2017-08-28T11:18:56+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0270s ]
+SQL: SELECT id, name, author FROM guitar_score ORDER BY id desc [ RunTime:0.0240s ]
+
+[ 2017-08-28T11:20:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT id, name, author FROM guitar_score ORDER BY id desc [ RunTime:0.0080s ]
+
+[ 2017-08-28T11:20:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:21:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:22:10+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0090s ]
+
+[ 2017-08-28T11:22:22+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT id, name, author, follow FROM guitar_score  [ RunTime:0.0080s ]
+
+[ 2017-08-28T11:22:41+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT id, name, author, follow FROM guitar_score ORDER BY follow desc [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:22:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT id, name, author, follow FROM guitar_score ORDER BY follow desc [ RunTime:0.0070s ]
+
+[ 2017-08-28T11:23:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0080s ]
+SQL: SELECT id, name, author FROM guitar_score  [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:23:23+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getScorelist&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT id, name, author FROM guitar_score ORDER BY follow desc [ RunTime:0.0050s ]
+
+[ 2017-08-28T11:34:38+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 35 行.
+
+[ 2017-08-28T11:35:49+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0290s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 36 行.
+
+[ 2017-08-28T11:36:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0310s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 36 行.
+
+[ 2017-08-28T11:36:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0230s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 36 行.
+
+[ 2017-08-28T11:36:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0140s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 35 行.
+
+[ 2017-08-28T11:36:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 34 行.
+
+[ 2017-08-28T11:36:51+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 34 行.
+
+[ 2017-08-28T11:36:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 34 行.
+
+[ 2017-08-28T11:37:40+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 34 行.
+
+[ 2017-08-28T11:39:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0070s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: src E:\test\WeChat\Application\Home\Model\ScoreModel.class.php 第 34 行.
+
+[ 2017-08-28T11:39:22+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0050s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0080s ]
+
+[ 2017-08-28T11:39:29+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getImg&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_score` [ RunTime:0.0060s ]
+SQL: SELECT * FROM guitar_score where id = 1 [ RunTime:0.0070s ]
+
+[ 2017-08-28T15:15:15+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T15:15:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T15:15:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T15:15:53+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T15:16:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T15:17:07+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0150s ]
+NOTIC: [2] Missing argument 1 for Home\Model\RecommendModel::getArticle(), called in E:\test\WeChat\Application\Home\Controller\TestController.class.php on line 16 and defined E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 21 行.
+NOTIC: [8] Undefined variable: id E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 22 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT title, author, time, content FROM guitar_recommend where id =
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT title, author, time, content FROM guitar_recommend where id =
+
+[ 2017-08-28T15:17:17+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0050s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0050s ]
+
+[ 2017-08-28T15:19:37+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T15:20:39+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0050s ]
+
+[ 2017-08-28T15:20:58+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0070s ]
+NOTIC: [8] Undefined offset: 0 E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 26 行.
+
+[ 2017-08-28T15:21:06+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0120s ]
+
+[ 2017-08-28T15:21:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0060s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0050s ]
+
+[ 2017-08-28T15:21:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: key E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 26 行.
+NOTIC: [8] Undefined index:  E:\test\WeChat\Application\Home\Model\RecommendModel.class.php 第 26 行.
+
+[ 2017-08-28T15:21:47+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0080s ]
+
+[ 2017-08-28T15:22:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=getArticle&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_recommend` [ RunTime:0.0070s ]
+SQL: SELECT title, author, time, content FROM guitar_recommend where id =1 [ RunTime:0.0080s ]
+
+[ 2017-08-28T18:12:29+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T18:12:48+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0100s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 14 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/sns/jscode2session?appid=wx4c9e5b7490b9edee&amp;secret=d13a53d06c90ea288d90881bae6ce942&amp;js_code=0817hSyt08MnPe1s6rwt0ikOyt07hSy6&amp;grant_type=authorization_code): failed to open stream: No such file or directory E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 14 行.
+
+[ 2017-08-28T18:15:58+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-28T18:16:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 14 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/sns/jscode2session?appid=wx4c9e5b7490b9edee&amp;secret=d13a53d06c90ea288d90881bae6ce942&amp;js_code=0817hSyt08MnPe1s6rwt0ikOyt07hSy6&amp;grant_type=authorization_code): failed to open stream: No such file or directory E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 14 行.
+
+[ 2017-08-28T18:16:55+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-28T18:18:35+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0320s ]
+
+[ 2017-08-28T18:18:55+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-28T18:19:10+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined offset: 1 E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 31 行.
+NOTIC: [2] curl_close(): 32 is not a valid cURL handle resource E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 45 行.
+
+[ 2017-08-28T18:20:04+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-28T18:20:13+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 14 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/sns/jscode2session?appid=wx4c9e5b7490b9edee&amp;secret=d13a53d06c90ea288d90881bae6ce942&amp;js_code=0817hSyt08MnPe1s6rwt0ikOyt07hSy6&amp;grant_type=authorization_code): failed to open stream: No such file or directory E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 14 行.
+
+[ 2017-08-28T18:26:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-28T18:26:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-28T18:29:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-28T18:38:26+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+NOTIC: [2] Illegal string offset 'openid' E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:38:35+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:38:39+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-28T18:38:46+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0110s ]
+NOTIC: [2] Illegal string offset 'errcode' E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:41:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: data，true E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:41:07+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: data，true E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:41:10+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: data，true E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:41:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: data，true E:\test\WeChat\Application\Home\Model\UserModel.class.php 第 15 行.
+
+[ 2017-08-28T18:41:19+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-08-28T18:41:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0090s ]
+
+[ 2017-08-28T18:42:00+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-28T18:42:08+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+
+[ 2017-08-28T18:43:27+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-28T18:43:27+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-28T18:43:28+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-28T18:43:28+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-28T18:44:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Test&a=saveInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0080s ]
+
