@@ -14,7 +14,7 @@ class UserModel extends BaseModel {
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       // $userinfo = json_decode($userinfo);
-      return is_null(json_decode($userinfo));
+      return $userinfo;
       exit();
       //$userinfo['openid'] = $data['openid'];
       if($data['openid']){
