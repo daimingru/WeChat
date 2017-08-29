@@ -15,14 +15,20 @@ class UserModel extends BaseModel {
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       $userinfo = json_decode($userinfo,true);
-      $userinfo['openid'] = '"d13a53d06c90ea288d90881bae6ce942s"';
+      $userinfo['openid'] = $data['code'];
+      if($userinfo['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ='.$userinfo['openid'];
       $rs 	= $this->query($sql);
-      if(!$rs){
-        $User = M("user"); // 实例化User对象
-        $userinfo['openid'] = $data['openid'];
-        $User->add($userinfo);
+        if(!$rs){
+          $User = M("user"); // 实例化User对象
+          $userinfo['openid'] = $data['openid'];
+          $User->add($userinfo);
+        }
+        $User['status'] = 200;
+        $User['msg'] = 'success';
       }
+      $User['status'] = 31001;
+      $User['msg'] = '用户未同意授权';
       return $User;
   }
 
