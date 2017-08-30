@@ -14,10 +14,9 @@ class UserModel extends BaseModel {
       $data = $this -> getCurl($url);
       $userinfo = "'"+$userinfo+"'";
       $data = json_decode($data,true);
-      $userinfo = json_decode($userinfo);
-      return $userinfo;
-      exit();
-      //$userinfo['openid'] = $data['openid'];
+      $userinfo = '{"nickName":"programmer","gender":1,"language":"zh_CN","city":"Yancheng","province":"Jiangsu","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/LjQmhzIQCrFBysibGEohkZicduKPux035cE9wUjsmMoHctG1gCOZcOPztgUe3QLMMUiaLDH0GugOwn6wmR934CibuA/0"}';
+      $userinfo = json_decode($userinfo,true);
+      $userinfo['openid'] = $data['openid'];
       if($data['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
       $rs 	= $this->query($sql);
