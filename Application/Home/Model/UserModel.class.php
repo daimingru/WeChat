@@ -7,6 +7,7 @@
 namespace Home\Model;
 class UserModel extends BaseModel {
 
+  //保存用户信息
   public function saveInfo($userinfo,$code){
       $appID = 'wx4c9e5b7490b9edee';
       $AppSecret = 'd13a53d06c90ea288d90881bae6ce942';
@@ -33,7 +34,7 @@ class UserModel extends BaseModel {
       return $User;
   }
 
-  function getCurl($url){
+  public function getCurl($url){
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL,$url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
@@ -42,6 +43,10 @@ class UserModel extends BaseModel {
     $result = curl_exec($ch);
     curl_close ($ch);
     return $result;
+  }
+
+  public function collectorWrite($id,$type){
+    
   }
 
 }
