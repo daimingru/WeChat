@@ -1,0 +1,23 @@
+{
+  "name": "okay",
+  "version": "1.0.0",
+  "description": "okay gulp pack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dmr",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-md5-plus": "^1.0.3",
+    "gulp-replace": "^0.6.1",
+    "gulp-rev": "^8.0.0",
+    "gulp-rev-collector": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-shell": "^0.6.3",
+    "gulp-uglify": "^2.1.2"
+  }
+}
