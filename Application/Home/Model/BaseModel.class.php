@@ -69,7 +69,6 @@ class BaseModel extends Model {
 	 * 去除html标签
 	 */
 	public function replaceHtml($str){
-
 	}
 
   /**
