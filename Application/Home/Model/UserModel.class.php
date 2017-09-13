@@ -11,12 +11,15 @@ class UserModel extends BaseModel {
   public function saveInfo($userinfo,$code){
       $appID = 'wx4c9e5b7490b9edee';
       $AppSecret = 'd13a53d06c90ea288d90881bae6ce942';
+      var_dump(date("Y-m-d H:i:s"));
+      exit();
       $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code='.$code.'&grant_type=authorization_code';
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       $userinfo = htmlspecialchars_decode($userinfo);
       $userinfo = json_decode($userinfo,true);
       $userinfo['openid'] = $data['openid'];
+      $userinfo['date'] = time();
       if($data['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
       $rs 	= $this->query($sql);
@@ -26,6 +29,7 @@ class UserModel extends BaseModel {
         }
         $User['status'] = 200;
         $User['msg'] = 'success';
+        S('Token',md5($userinfo['openid']));
       }else{
         $User['status'] = 31001;
         $User['msg'] = '用户未同意授权';
@@ -44,8 +48,17 @@ class UserModel extends BaseModel {
     return $result;
   }
 
+  //添加/取消关注
   public function collectorWrite($id,$type){
-
+    $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
+    $rs 	= $this->query($sql);
+      if(!$rs){
+        $User = M("user"); // 实例化User对象
+        $User->add($userinfo);
+      }
+      $User['status'] = 200;
+      $User['msg'] = 'success';
+    return $User;
   }
 
 }
