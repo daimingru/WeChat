@@ -11,15 +11,13 @@ class UserModel extends BaseModel {
   public function saveInfo($userinfo,$code){
       $appID = 'wx4c9e5b7490b9edee';
       $AppSecret = 'd13a53d06c90ea288d90881bae6ce942';
-      var_dump(date("Y-m-d H:i:s"));
-      exit();
       $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code='.$code.'&grant_type=authorization_code';
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
       $userinfo = htmlspecialchars_decode($userinfo);
       $userinfo = json_decode($userinfo,true);
       $userinfo['openid'] = $data['openid'];
-      $userinfo['date'] = data('Y:m:d H:i:s',time());
+      $userinfo['date'] = date('Y:m:d H:i:s',time());
       if($data['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
       $rs 	= $this->query($sql);
