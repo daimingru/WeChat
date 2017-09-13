@@ -19,7 +19,7 @@ class UserModel extends BaseModel {
       $userinfo = htmlspecialchars_decode($userinfo);
       $userinfo = json_decode($userinfo,true);
       $userinfo['openid'] = $data['openid'];
-      $userinfo['date'] = time();
+      $userinfo['date'] = data('Y:m:d H:i:s',time());
       if($data['openid']){
       $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
       $rs 	= $this->query($sql);
