@@ -32,6 +32,13 @@ class ScoreModel extends BaseModel {
       $rs 	= $this->query($sql);
       $rs[0]['data'] = array();
       $rs[0]['data'] = explode(",", $rs[0]['src']);
+
+      $sql  = 'SELECT flag FROM __PREFIX__collect where type = "score" and user_id ='.S('userId').' and score_id ='.$id;
+      $rt 	= $this->query($sql);
+      $rs[0]['flag'] = 0;
+      if($rt[0]['flag']){
+        $rs[0]['flag'] = $rt[0]['flag'];
+      }
       return $rs;
   }
 }

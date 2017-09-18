@@ -14,20 +14,21 @@ class UserModel extends BaseModel {
       $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appID.'&secret='.$AppSecret.'&js_code='.$code.'&grant_type=authorization_code';
       $data = $this -> getCurl($url);
       $data = json_decode($data,true);
-      $userinfo = htmlspecialchars_decode($userinfo);
-      $userinfo = json_decode($userinfo,true);
-      $userinfo['openid'] = $data['openid'];
-      $userinfo['date'] = date('Y:m:d H:i',time());
       if($data['openid']){
-      $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
-      $rs 	= $this->query($sql);
+        $userinfo = htmlspecialchars_decode($userinfo);
+        $userinfo = json_decode($userinfo,true);
+        $userinfo['openid'] = $data['openid'];
+        $userinfo['date'] = date('Y:m:d H:i',time());
+        $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
+        $rs 	= $this->query($sql);
+        $userId = $rs[0]['id'];
         if(!$rs){
           $User = M("user"); // 实例化User对象
-          $User->add($userinfo);
+          $userId = $User->add($userinfo);
         }
         $User['status'] = 200;
         $User['msg'] = 'success';
-        S('Token',md5($userinfo['openid']));
+        S('userId',$userId);
       }else{
         $User['status'] = 31001;
         $User['msg'] = '用户未同意授权';
@@ -48,15 +49,74 @@ class UserModel extends BaseModel {
 
   //添加/取消关注
   public function collectorWrite($id,$type){
-    $sql  = 'SELECT * FROM __PREFIX__user where openid ="'.$data['openid'].'"';
-    $rs 	= $this->query($sql);
-      if(!$rs){
-        $User = M("user"); // 实例化User对象
-        $User->add($userinfo);
+    $userId = S('userId');
+    $data = array();
+    $status = array();
+    $rs   = $this -> selectCollect($id);
+    $User = M("collect");
+    if(!$rs){
+      $data['user_id'] = $userId;
+      $data['score_id'] = $id;
+      $data['type'] = $type;
+      $data['flag'] = 1;
+      $data['create_time'] = date('Y:m:d H:i',time());
+      $data = $User->add($data);
+      if(!$data){
+        $status['status'] = 39001;
+        $status['msg'] = '请不要乱搞';
+      }else{
+        $status['status'] = 200;
+        $status['msg'] = 1;
       }
-      $User['status'] = 200;
-      $User['msg'] = 'success';
-    return $User;
+    }else{
+      $msg = $User->flag = $rs[0]['flag'] == 1 ? 0 : 1;
+      $User = $User->where('user_id='.$userId.' and score_id='.$id)->save($data);
+      if(!$User){
+        $status['status'] = 39001;
+        $status['msg'] = '请不要乱搞';
+      }else{
+        $status['status'] = 200;
+        $status['msg'] = $msg;
+      }
+    }
+    return $status;
+  }
+
+
+  //查看是否有记录
+  public function selectCollect($id){
+    $sql = 'select * from __PREFIX__collect WHERE user_id = '.$userinfo = S('userId').' and score_id = '.$id;
+    $rs  = $this->query($sql);
+    if(!$rs){
+      return false;
+    }
+    return $rs;
+  }
+
+  //获取收藏
+  public function getCollect(){
+      $data = array();
+      $sql  = 'SELECT score_id, type FROM __PREFIX__collect where flag = 1 and user_id ='.S('userId');
+      $rs 	= $this->query($sql);
+      $sql = '';
+      $sql1 = '';
+      $article = array();
+      for($i = 0; $i < count($rs); $i++){
+        if ($rs[$i]['type'] == 'score'){
+          $sql .= $rs[$i]['score_id'].',';
+        }else{
+          $sql1 .= $rs[$i]['score_id'].',';
+        }
+      }
+      $sql = "Select id, name, author from __PREFIX__score where id in(".substr($sql, 0, -1).")";
+      $sql1 = "Select * from __PREFIX__recommend where id in(".substr($sql1, 0, -1).")";
+      $data['score']	= $this->query($sql);
+      $data['recommend']	= $this->query($sql1);
+      foreach ($data['recommend'] as $key => $value) {
+        $data['recommend'][$key]['content'] = mb_substr($value['content'],0,35);
+        $data['recommend'][$key]['src'] = '../article/article?id='.$value['id'];
+      }
+      return $data;
   }
 
 }

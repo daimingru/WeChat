@@ -21,4 +21,11 @@ class UserController extends Controller {
     $this->ajaxReturn($data);
   }
 
+  //用户收藏
+  public function getCollect(){
+    $m = D('Home/User');
+    $data = $m -> getCollect($userinfo,$code);
+    $this->ajaxReturn($data);
+  }
+
 }
