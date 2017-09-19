@@ -110,8 +110,6 @@ class UserModel extends BaseModel {
           }
         }
         if($sql != ''){
-          var_dump(substr($sql, 0, -1));
-          exit();
           $sql = "SELECT id, name, author from __PREFIX__score where id in(".substr($sql, 0, -1).")";
           $data['score']	= $this->query($sql);
         }
