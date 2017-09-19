@@ -1,0 +1,26 @@
+/* qplist.wxss */
+@import "../public/css/base.wxss";
+.qplist{
+  width: 92%;
+  margin: 0 4%;
+}
+.time{
+  font-size: 28rpx;
+  color: #c8c8c8;
+  float: right;
+}
+navigator{
+  font-size: 32rpx;
+  overflow: hidden;
+  margin: 25rpx auto;
+}
+navigator text{
+  display: inline;
+}
+.title{
+  color: #666;
+  font-size: 38rpx;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #eee;
+}

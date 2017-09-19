@@ -1,0 +1,22 @@
+.follow{
+  font-size: 30rpx;
+  height: 57rpx;
+  line-height: 60rpx;
+  color: #448cff;
+  text-align: right;
+  margin-top: 20rpx;
+}
+.follow-prompt{
+  font-size: 24rpx;
+  color: #aaa;
+  text-align: right;
+  margin-top:20rpx;
+}
+.follow text{
+  display: inline-block;
+  padding-left: 45rpx;
+  height: 60rpx;
+  background-color: #fff;
+  background: url(https://www.aparesse.com/Public/images/heart.png) 0 center no-repeat;
+  background-size: 40rpx 40rpx;
+}

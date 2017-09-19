@@ -1,0 +1,41 @@
+/* article.wxss */
+@import "../public/css/base.wxss";
+@import "/wxParse/wxParse.wxss";
+@import "/pages/components/follow/follow.wxss";
+.article{
+  width: 96%;
+  margin: 2%;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+
+.article .title{
+  font-size: 46rpx;
+}
+
+.article .date{
+  color: #999;
+  font-size: 30rpx;
+}
+
+.article .author{
+  color: #999;
+  font-size: 30rpx;
+  margin: 20rpx 0;
+}
+
+.article .article-count{
+  margin-top: 36rpx;
+  line-height: 52rpx;
+  color: #576b95;
+}
+.article .article-count text{
+  font-size: 35rpx;
+}
+image{
+  width: 100%!important;
+}
+.article-count view{
+  text-indent: 70rpx;
+  margin-bottom: 10rpx;
+}

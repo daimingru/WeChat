@@ -1,0 +1,6 @@
+<template name="tab">
+  <view class="tab">
+    <text data-flag="1" bindtap='Changetap' class='{{tab.selected ? "select" : ""}}'>曲谱</text>
+    <text data-flag="0" bindtap='Changetap' class='{{tab.selected ? "" : "select"}}'>文章</text>
+  </view>
+</template>

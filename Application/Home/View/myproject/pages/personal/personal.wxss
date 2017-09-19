@@ -1,0 +1,53 @@
+/* personal.wxss */
+page{
+  background: #edeff1;
+}
+.head{
+  height: 420rpx;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.mask{
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(100, 100, 100, 0.6);
+}
+.head image{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 80rpx auto 20rpx auto;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.item{
+  font-size: 30rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.item1 text{
+  background: url(https://www.aparesse.com/Public/images/heart.png) 35rpx center no-repeat;
+  background-size: 40rpx 40rpx;
+}
+.item2 text{
+  background: url(https://www.aparesse.com/Public/images/egg.png) 35rpx center no-repeat;
+  background-size: 40rpx 40rpx;
+}
+text{
+  display: block;
+  width: 100%;
+  padding-left: 100rpx;
+
+}
+.commingson{
+  color: #999;
+  text-align: center;
+  padding-top: 260rpx;
+}

@@ -1,0 +1,10 @@
+<!--qplist.wxml-->
+<view class="qplist">
+  <text class="title">{{title}}</text>
+  <block wx:for="{{list}}">
+    <navigator url="../qpdetailed/qpdetailed?id={{item.id}}" hover-class="other-navigator-hover">
+      <text>{{item.name}}</text><text class="time">{{item.author}}</text>
+    </navigator>
+  </block>
+</view>
+

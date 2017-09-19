@@ -1,0 +1,64 @@
+/* pages/collectlist/collectlist.wxss */
+@import "../public/css/base.wxss";
+@import "../../pages/components/tab/tab.wxss";
+
+.qplist navigator{
+  font-size: 32rpx;
+  overflow: hidden;
+  margin: 25rpx auto;
+}
+navigator text{
+  display: inline;
+}
+
+.box{
+  display: none;
+}
+.box .item{
+  overflow: hidden;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #eee;
+}
+.box .other-navigator-hover{
+  background: #eee;
+}
+
+.box .item .img{
+  width: 250rpx;
+  height: 177rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+
+.box .item .img image{
+  max-width: 100%;
+  max-height: 100%;
+}
+.box .item .info {
+  width: 400rpx;
+  float: left;
+  color: #666;
+}
+
+.info text{
+  display: block;
+}
+.info .title{
+  color: #333;
+  font-size: 34rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.info .desc{
+  color: #999;
+  height: 64rpx;
+  font-size: 24rpx;
+  margin-top: 15rpx;
+}
+
+.info .date{
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 15rpx;
+}

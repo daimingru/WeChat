@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="qp">
+  <navigator url="../qplist/qplist?id=1" hover-class="other-navigator-hover">
+    <view class="docu hot">
+      <text>最热</text>
+    </view>
+  </navigator>
+  <navigator url="../qplist/qplist?id=2" hover-class="other-navigator-hover">
+    <view class="docu new">
+      <text>最新</text>
+    </view>
+  </navigator>
+  <navigator url="../qplist/qplist?id=3" hover-class="other-navigator-hover">
+    <view class="docu all">
+      <text>全部</text>
+    </view>
+  </navigator>
+</view>

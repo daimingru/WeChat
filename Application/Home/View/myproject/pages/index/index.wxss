@@ -1,0 +1,27 @@
+/**index.wxss**/
+.qp{
+  padding: 20rpx 0;
+}
+.docu{
+   width: 92%;
+   color:#fff;
+   padding: 40rpx;
+   height: 325rpx;
+   margin: 20rpx 4%;
+   box-sizing: border-box;
+   border-radius: 8rpx;
+   background-size: cover;
+}
+.hot{
+  background: url(https://www.aparesse.com/Public/images/qp1.jpg) no-repeat center center;
+}
+.new{
+  background: url(https://www.aparesse.com/Public/images/qp2.jpg) no-repeat center center;
+}
+.all{
+  background: url(https://www.aparesse.com/Public/images/qp3.jpg) no-repeat center center;
+}
+.other-navigator-hover{
+  opacity: .8;
+}
+

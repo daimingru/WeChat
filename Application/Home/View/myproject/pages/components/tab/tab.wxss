@@ -1,0 +1,21 @@
+.tab{
+  color: #666;
+  overflow: hidden;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.tab text{
+  float: left;
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 34rpx;
+  border-bottom: 1px solid #eee;
+}
+.tab .select{
+  color: #3987de;
+  border-bottom: 1px solid #3987de;
+}

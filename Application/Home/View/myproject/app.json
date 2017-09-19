@@ -1,0 +1,43 @@
+{
+  "pages": [
+    
+    "pages/guide/guide",
+    "pages/article/article",
+    "pages/index/index",
+    "pages/personal/personal",
+    "pages/qpdetailed/qpdetailed",
+    "pages/qplist/qplist",
+    "pages/collectlist/collectlist"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "guitar",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/guide/guide",
+        "iconPath": "pages/public/images/1-b.png",
+        "selectedIconPath": "pages/public/images/1.png",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/public/images/2-b.png",
+        "selectedIconPath": "pages/public/images/2.png",
+        "text": "曲谱"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "pages/public/images/4-b.png",
+        "selectedIconPath": "pages/public/images/4.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

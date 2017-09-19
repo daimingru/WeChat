@@ -1,0 +1,12 @@
+<!--article.wxml-->
+<view class="article">
+ <import src="/pages/components/follow/follow.wxml"/> 
+  <text class="title">{{article.title}}</text>
+  <text class="author">by {{article.author}}</text>
+  <text class="date">{{article.time}}</text>
+  <view class="article-count">
+    <import src="../../wxParse/wxParse.wxml"/>
+    <template is="wxParse" data="{{wxParseData:text.nodes}}"/>
+  </view>
+   <template is="follow" data="{{flag:article.flag}}" /> 
+</view>

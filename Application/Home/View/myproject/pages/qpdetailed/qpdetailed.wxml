@@ -1,0 +1,12 @@
+<!--article.wxml-->
+<view class="article">
+  <import src="/pages/components/follow/follow.wxml"/> 
+  <text class="title">{{score.name}} - {{score.author}}</text>
+  <text class="date">{{score.time}}</text>
+  <view class="article-count">
+  <block wx:for="{{score.data}}">
+    <image mode="widthFix" data-index="{{index}}" bindtap="showImg" src="{{item}}"></image>
+  </block>
+  </view>
+  <template is="follow" data="{{flag:score.flag}}" /> 
+</view>

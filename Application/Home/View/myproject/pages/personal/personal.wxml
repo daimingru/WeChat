@@ -1,0 +1,25 @@
+<!--personal.wxml-->
+<view class="personal">
+  <view class="head" style="{{headbg}}">
+    <view class="mask">
+      <image src="{{userInfo.avatarUrl}}"></image>
+      <view>{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view class="list">
+     <navigator url="../collectlist/collectlist">
+      <view class="item item1">
+        <text>我的收藏</text>
+      </view>
+    </navigator> 
+    <!-- <navigator url="../qpdetailed/qpdetailed">
+      <view class="item item2">
+        <text>意见建议</text>
+      </view>
+    </navigator> -->
+    <view class="commingson">
+      感谢关注,
+      稍后会开启更多功能！
+    </view>
+  </view>
+</view>
