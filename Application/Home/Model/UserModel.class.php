@@ -98,23 +98,31 @@ class UserModel extends BaseModel {
       $data = array();
       $sql  = 'SELECT score_id, type FROM __PREFIX__collect where flag = 1 and user_id ='.S('userId');
       $rs 	= $this->query($sql);
-      $sql = '';
-      $sql1 = '';
-      $article = array();
-      for($i = 0; $i < count($rs); $i++){
-        if ($rs[$i]['type'] == 'score'){
-          $sql .= $rs[$i]['score_id'].',';
-        }else{
-          $sql1 .= $rs[$i]['score_id'].',';
+      if($rs){
+        $sql = '';
+        $sql1 = '';
+        $article = array();
+        for($i = 0; $i < count($rs); $i++){
+          if ($rs[$i]['type'] == 'score'){
+            $sql .= $rs[$i]['score_id'].',';
+          }else{
+            $sql1 .= $rs[$i]['score_id'].',';
+          }
         }
-      }
-      $sql = "SELECT id, name, author from __PREFIX__score where id in(".substr($sql, 0, -1).")";
-      $sql1 = "SELECT * from __PREFIX__recommend where id in(".substr($sql1, 0, -1).")";
-      $data['score']	= $this->query($sql);
-      $data['recommend']	= $this->query($sql1);
-      foreach ($data['recommend'] as $key => $value) {
-        $data['recommend'][$key]['content'] = mb_substr($value['content'],0,35);
-        $data['recommend'][$key]['src'] = '../article/article?id='.$value['id'];
+        if($sql != ''){
+          var_dump(substr($sql, 0, -1));
+          exit();
+          $sql = "SELECT id, name, author from __PREFIX__score where id in(".substr($sql, 0, -1).")";
+          $data['score']	= $this->query($sql);
+        }
+        if($sql1 != ''){
+          $sql1 = "SELECT * from __PREFIX__recommend where id in(".substr($sql1, 0, -1).")";
+          $data['recommend']	= $this->query($sql1);
+          foreach ($data['recommend'] as $key => $value) {
+            $data['recommend'][$key]['content'] = mb_substr($value['content'],0,35);
+            $data['recommend'][$key]['src'] = '../article/article?id='.$value['id'];
+          }
+        }
       }
       return $data;
   }

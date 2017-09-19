@@ -1,0 +1,3 @@
+<view class="section tc">
+  <video src="http://www.w3school.com.cn/i/movie.ogg" controls></video>
+</view>

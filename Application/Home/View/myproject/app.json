@@ -1,14 +1,13 @@
 {
   "pages": [
-    
     "pages/guide/guide",
     "pages/article/article",
     "pages/index/index",
     "pages/personal/personal",
     "pages/qpdetailed/qpdetailed",
     "pages/qplist/qplist",
-    "pages/collectlist/collectlist"
-    
+    "pages/collectlist/collectlist",
+    "pages/beginner/beginner"
   ],
   "window": {
     "backgroundTextStyle": "light",
