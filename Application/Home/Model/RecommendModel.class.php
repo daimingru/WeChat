@@ -22,8 +22,6 @@ class RecommendModel extends BaseModel {
       $data = array();
       $sql  = 'SELECT title, author, time, content FROM __PREFIX__recommend where id ='.$id;
       $rs 	= $this->query($sql);
-      $sql  = 'SELECT flag FROM __PREFIX__collect where type = "article" and user_id ='.S('userId').' and score_id ='.$id;
-      $rt 	= $this->query($sql);
       $rs[0]['flag'] = 0;
       if($rt[0]['flag']){
         $rs[0]['flag'] = $rt[0]['flag'];
