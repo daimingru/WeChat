@@ -108,8 +108,8 @@ class UserModel extends BaseModel {
           $sql1 .= $rs[$i]['score_id'].',';
         }
       }
-      $sql = "Select id, name, author from __PREFIX__score where id in(".substr($sql, 0, -1).")";
-      $sql1 = "Select * from __PREFIX__recommend where id in(".substr($sql1, 0, -1).")";
+      $sql = "SELECT id, name, author from __PREFIX__score where id in(".substr($sql, 0, -1).")";
+      $sql1 = "SELECT * from __PREFIX__recommend where id in(".substr($sql1, 0, -1).")";
       $data['score']	= $this->query($sql);
       $data['recommend']	= $this->query($sql1);
       foreach ($data['recommend'] as $key => $value) {
