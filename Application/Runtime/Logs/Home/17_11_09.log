@@ -1,0 +1,517 @@
+[ 2017-11-09T17:44:11+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+
+[ 2017-11-09T17:46:00+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-09T17:46:43+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 83 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 83 行.
+ERR: 1364:Field 'title' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `guitar_proposal` () VALUES ()
+ERR: 1364:Field 'title' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `guitar_proposal` () VALUES ()
+
+[ 2017-11-09T17:47:48+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 83 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 83 行.
+ERR: 1364:Field 'title' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `guitar_proposal` () VALUES ()
+ERR: 1364:Field 'title' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `guitar_proposal` () VALUES ()
+
+[ 2017-11-09T17:51:23+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T17:52:08+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T17:53:11+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T17:56:05+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0110s ]
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:00:28+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 83 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 83 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:12:32+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:13:15+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0090s ]
+
+[ 2017-11-09T18:13:57+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:14:44+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:15:54+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0090s ]
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:16:25+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:17:13+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:17:31+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:17:52+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [8] Undefined variable: User D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\UserModel.class.php 第 136 行.
+
+[ 2017-11-09T18:18:15+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:18:38+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:19:09+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-09T18:19:20+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:19:48+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:20:12+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:20:19+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:20:42+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:21:02+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:21:26+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:21:38+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:21:44+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:22:04+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:22:35+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: arr D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\BaseModel.class.php 第 64 行.
+
+[ 2017-11-09T18:22:50+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-11-09T18:22:59+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+
+[ 2017-11-09T18:23:29+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+
+[ 2017-11-09T18:23:37+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+
+[ 2017-11-09T18:23:50+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0070s ]
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+ERR: 1146:Table 'guitar.guitar_proposal' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `guitar_proposal`
+
+[ 2017-11-09T18:26:56+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0290s ]
+
+[ 2017-11-09T18:27:10+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0030s ]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`) VALUES ('27','啊实打实','2017:11:09 18:27')
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`) VALUES ('27','啊实打实','2017:11:09 18:27')
+
+[ 2017-11-09T18:28:01+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+
+[ 2017-11-09T18:28:26+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`) VALUES ('27','123123','2017:11:09 18:28') [ RunTime:0.0060s ]
+
+[ 2017-11-09T18:29:42+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+
+[ 2017-11-09T18:30:44+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`) VALUES ('27','rini ','2017:11:09 18:30') [ RunTime:0.0060s ]
+
+[ 2017-11-09T18:30:49+08:00 ] ::1 /WeChat/index.php?m=Home&c=User&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+

@@ -1,0 +1,176 @@
+[ 2017-11-13T14:56:35+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid [ RunTime:0.0080s ]
+SQL: SELECT * FROM guitar_proposal ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0110s ]
+
+[ 2017-11-13T14:57:43+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:00:06+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:00:42+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:01:09+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-13T15:06:13+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-13T15:18:39+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-13T15:20:38+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-13T15:21:16+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:21:30+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0110s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-13T15:21:35+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-13T15:22:25+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:22:37+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-13T15:22:42+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:23:06+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-13T15:23:32+08:00 ] ::1 /WeChat/index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY z desc LIMIT 0,10 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,create_time,z FROM guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid  ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.0120s ]
+

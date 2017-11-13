@@ -36,6 +36,14 @@ class UserModel extends BaseModel {
       return $User;
   }
 
+  //查询用户信息
+  public function getInfo($id){
+    $data = array();
+    $sql  = 'SELECT * FROM __PREFIX__user where id='.$id;
+    $rs 	= $this->query($sql);
+    return $rs;
+  }
+
   public function getCurl($url){
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL,$url);
