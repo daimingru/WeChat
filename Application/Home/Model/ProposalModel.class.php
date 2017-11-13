@@ -39,14 +39,12 @@ class ProposalModel extends BaseModel {
   //获取最3条建议
   public function getProposal($page){
     $data = array();
-    $sql  = 'SELECT nickName,avatarUrl,comment,create_time,z FROM __PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid  ORDER BY z desc LIMIT 3';
+    $sql  = 'SELECT nickName,avatarUrl,comment,create_time,z,__PREFIX__proposal.id FROM __PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1  ORDER BY z desc LIMIT 3';
     $rs 	= $this->query($sql);
     if($rs){
       $data['top'] = $rs;
       $data['new'] = $this -> getNewProposal($page);
-      if($data['new']){
-        $data['status'] = 200;
-      }
+      $data['status'] = 200;
     }else{
       $data['status'] = 31404;
     }
@@ -58,9 +56,30 @@ class ProposalModel extends BaseModel {
   public function getNewProposal($page){
     $data = array();
     $page = ( $page - 1 ) * 10;
-    $sql  = 'SELECT nickName,avatarUrl,comment,create_time,z FROM __PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid  ORDER BY create_time desc LIMIT '.$page.',10';
+    $sql  = 'SELECT id from __PREFIX__proposal ORDER BY z desc LIMIT 3';
     $rs 	= $this->query($sql);
+
+    foreach ($rs as $key => $value) {
+      $rs[$key] = $value['id'];
+    }
+
+    $sql = 'SELECT nickName,avatarUrl,comment,create_time,z,__PREFIX__proposal.id from guitar_user INNER JOIN guitar_proposal ON __PREFIX__user.id = guitar_proposal.userid and __PREFIX__proposal.flag = 1 and __PREFIX__proposal.id not in ('.join(',',$rs).') ORDER BY create_time desc LIMIT '.$page.',10';
+    $rs 	= $this->query($sql);
+
     return $rs;
+  }
+
+  //反馈建议点赞
+  public function zProposal($id){
+    $data = array();
+    $Article = M("proposal");
+    $Article->where('id='.$id)->setInc('z',1);
+    if($Article){
+      $data['status'] == 200;
+    }else{
+      $data['status'] == 31404;
+    }
+    return $data;
   }
 
 }

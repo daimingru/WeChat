@@ -11,11 +11,19 @@ class ProposalController extends Controller {
     $this->ajaxReturn($data);
   }
 
-  //用户反馈建议
+  //获取用户反馈建议
   public function getProposal(){
     $page = I('page');
     $m = D('Home/Proposal');
     $data = $m -> getProposal($page);
+    $this->ajaxReturn($data);
+  }
+
+  //反馈建议点赞
+  public function zProposal(){
+    $id = I('id');
+    $m = D('Home/Proposal');
+    $data = $m -> zProposal($id);
     $this->ajaxReturn($data);
   }
 
