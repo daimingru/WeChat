@@ -39,7 +39,7 @@ class ProposalModel extends BaseModel {
   //获取最3条建议
   public function getProposal($page){
     $data = array();
-    $sql  = 'SELECT nickName,avatarUrl,comment,create_time,z FROM __PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid  ORDER BY z desc LIMIT 0,3';
+    $sql  = 'SELECT nickName,avatarUrl,comment,create_time,z FROM __PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid  ORDER BY z desc LIMIT 3';
     $rs 	= $this->query($sql);
     if($rs){
       $data['top'] = $rs;
