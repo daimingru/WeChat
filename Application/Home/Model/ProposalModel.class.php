@@ -20,7 +20,7 @@ class ProposalModel extends BaseModel {
     $data['z'] = 0;
     $User = M("proposal");
     if($data['comment']){
-      $rs = $User->add($data);
+      // $rs = $User->add($data);
       if(!$rs){
         $status['status'] = 39001;
         $status['msg'] = '请不要乱搞';
