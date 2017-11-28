@@ -59,7 +59,7 @@ class BaseModel extends Model {
   	 */
     public function textDecode($text){
       $txtContent=json_encode($text);
-      $txtContent=preg_replace_callback ('#(\\\u263a|\\\u2728|\\\u2b50|\\\u2753|\\\u270a|\\\u261d|\\\u2757|\\\ud[0-9a-f]{3})#',function($matches){ print_r($matches);return  stripslashes($matches[1]);}, $txtContent);
+      $txtContent=preg_replace_callback ('#(\\\u263a|\\\u2728|\\\u2b50|\\\u2753|\\\u270a|\\\u261d|\\\u2757|\\\ud[0-9a-f]{3})#',function($matches){ return  stripslashes($matches[1]);}, $txtContent);
       $txtContent=json_decode($txtContent);
 
       return $txtContent;
