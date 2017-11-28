@@ -33,7 +33,7 @@ class ProposalModel extends BaseModel {
       $status['status'] = 39002;
       $status['msg'] = '请删除敏感词汇咯';
     }
-    $status['comment'] = $this -> textEncode($comment);
+    $status['comment'] = $this -> textEncode($comment).'1';
     return $status;
   }
 
