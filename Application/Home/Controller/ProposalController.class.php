@@ -21,6 +21,7 @@ class ProposalController extends Controller {
 
   //反馈建议点赞
   public function zProposal(){
+    $data = array();
     $id = I('id');
     $m = D('Home/Proposal');
     $data = $m -> zProposal($id);

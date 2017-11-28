@@ -1,0 +1,2308 @@
+[ 2017-11-28T10:16:38+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:18:17+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','35','1','2017:11:28 10:18:17') [ RunTime:0.0130s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=35 ) [ RunTime:0.0080s ]
+
+[ 2017-11-28T10:18:31+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:21:16+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0110s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','34','1','2017:11:28 10:21:16') [ RunTime:0.0160s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=34 ) [ RunTime:0.0120s ]
+
+[ 2017-11-28T10:22:56+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:23:05+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','34','1','2017:11:28 10:23:05') [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=34 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:23:15+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0200s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0200s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0120s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0110s ]
+
+[ 2017-11-28T10:25:10+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:25:12+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','2','1','2017:11:28 10:25:12') [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:25:19+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:25:46+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0270s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0260s ]
+
+[ 2017-11-28T10:26:00+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:26:01+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:27:42+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:27:44+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-11-28T10:28:00+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:28:00' WHERE ( id=2 ) [ RunTime:0.0050s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 98 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 99 行.
+
+[ 2017-11-28T10:28:08+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0120s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:28:10+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:28:11+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:28:11' WHERE ( id=2 ) [ RunTime:0.0030s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 98 行.
+
+[ 2017-11-28T10:28:16+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0140s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0110s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0090s ]
+
+[ 2017-11-28T10:28:18+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:28:18' WHERE ( id=2 ) [ RunTime:0.0070s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 98 行.
+
+[ 2017-11-28T10:28:41+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:28:41' WHERE ( id=2 ) [ RunTime:0.0050s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 99 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 100 行.
+
+[ 2017-11-28T10:29:31+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:29:31' WHERE ( id=2 ) [ RunTime:0.0050s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 99 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 100 行.
+
+[ 2017-11-28T10:29:36+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0030s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-28T10:29:40+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:29:40+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:29:40' WHERE ( id=2 ) [ RunTime:0.0040s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 99 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 100 行.
+
+[ 2017-11-28T10:30:06+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:30:08+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:30:28+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:30:28' WHERE ( id=7 ) [ RunTime:0.0040s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 102 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 103 行.
+
+[ 2017-11-28T10:30:47+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:30:56+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0200s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:30:56' WHERE ( id=2 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:31:36+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:31:36' WHERE ( proposal_id=2 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:31:49+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:31:49' WHERE ( proposal_id=2 ) [ RunTime:0.0080s ]
+
+[ 2017-11-28T10:31:57+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:31:59+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:31:59' WHERE ( proposal_id=2 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0050s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 96 行.
+
+[ 2017-11-28T10:32:15+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:32:17+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:32:17' WHERE ( proposal_id=2 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+-1 WHERE ( id=2 ) [ RunTime:0.0050s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 96 行.
+
+[ 2017-11-28T10:32:22+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:32:24+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:32:24' WHERE ( proposal_id=2 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0060s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 96 行.
+
+[ 2017-11-28T10:32:30+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:32:33+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:32:33' WHERE ( proposal_id=2 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+-1 WHERE ( id=2 ) [ RunTime:0.0070s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 96 行.
+
+[ 2017-11-28T10:32:36+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:34:25+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0090s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0080s ]
+
+[ 2017-11-28T10:34:26+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0190s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0170s ]
+
+[ 2017-11-28T10:34:47+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0030s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-28T10:35:40+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0250s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:35:40' WHERE ( proposal_id=7 ) [ RunTime:0.0160s ]
+
+[ 2017-11-28T10:35:50+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0180s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0250s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0230s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0290s ]
+
+[ 2017-11-28T10:35:53+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0090s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:35:53' WHERE ( proposal_id=7 ) [ RunTime:0.0110s ]
+
+[ 2017-11-28T10:35:58+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:36:01+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:36:01' WHERE ( proposal_id=7 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:36:04+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0130s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0200s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0160s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0250s ]
+
+[ 2017-11-28T10:36:04+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:36:04' WHERE ( proposal_id=2 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:36:06+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:36:51+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:36:51' WHERE ( proposal_id=2 ) [ RunTime:0.0100s ]
+
+[ 2017-11-28T10:36:57+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=34 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:36:57' WHERE ( proposal_id=34 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:37:11+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0120s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0150s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0120s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0100s ]
+
+[ 2017-11-28T10:37:12+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:37:12' WHERE ( proposal_id=2 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0090s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:37:19+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:37:25+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:37:26+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:37:26' WHERE ( proposal_id=2 ) [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0050s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:37:28+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:37:30+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:37:30' WHERE ( proposal_id=2 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+-1 WHERE ( id=2 ) [ RunTime:0.0090s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:37:32+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:37:33+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:37:33' WHERE ( proposal_id=7 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=7 ) [ RunTime:0.0060s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:37:35+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:37:36+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:37:36' WHERE ( proposal_id=7 ) [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+-1 WHERE ( id=7 ) [ RunTime:0.0040s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:37:37+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:38:22+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:38:22' WHERE ( proposal_id=2 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0090s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 98 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php:94) D:\Software\WampServer\wamp\www\WeChat\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-11-28T10:38:59+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:38:59' WHERE ( proposal_id=7 ) [ RunTime:0.0090s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=7 ) [ RunTime:0.0080s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 98 行.
+
+[ 2017-11-28T10:39:40+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=7 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:39:40' WHERE ( proposal_id=7 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+-1 WHERE ( id=7 ) [ RunTime:0.0060s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 98 行.
+
+[ 2017-11-28T10:40:59+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:41:00+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:41:00' WHERE ( proposal_id=2 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=2 ) [ RunTime:0.0070s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:41:02+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:41:03+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=2 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:41:03' WHERE ( proposal_id=2 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=2 ) [ RunTime:0.0070s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:41:04+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (2,7,35))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:41:17+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:41:53+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`,`z`) VALUES ('27','我','2017:11:28 10:41:53','0') [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:42:27+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0090s ]
+
+[ 2017-11-28T10:42:37+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`,`z`) VALUES ('27','晕','2017:11:28 10:42:37','0') [ RunTime:0.0100s ]
+
+[ 2017-11-28T10:42:41+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`,`z`) VALUES ('27','什么鬼','2017:11:28 10:42:41','0') [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:42:48+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=saveProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: INSERT INTO `guitar_proposal` (`userid`,`comment`,`create_time`,`z`) VALUES ('27','搞撒子哟','2017:11:28 10:42:48','0') [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:43:06+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:43:10+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','37','1','2017:11:28 10:43:10') [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=37 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:43:13+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:43:14+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0180s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:43:14' WHERE ( proposal_id=37 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=37 ) [ RunTime:0.0090s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:43:16+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:43:27+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0090s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0070s ]
+
+[ 2017-11-28T10:43:28+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0130s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','38','1','2017:11:28 10:43:28') [ RunTime:0.0170s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0100s ]
+
+[ 2017-11-28T10:43:33+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0100s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0150s ]
+
+[ 2017-11-28T10:43:35+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:43:38+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:43:38' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:43:40+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-28T10:43:42+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0300s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.2270s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','40','1','2017:11:28 10:43:42') [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=40 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:43:45+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:43:54+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 10:43:54' WHERE ( proposal_id=40 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=40 ) [ RunTime:0.0060s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\Software\WampServer\wamp\www\WeChat\Application\Home\Model\ProposalModel.class.php 第 97 行.
+
+[ 2017-11-28T10:50:42+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 10:50:42' WHERE ( proposal_id=38 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:52:42+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:56:30+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0210s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0090s ]
+
+[ 2017-11-28T10:56:39+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T10:56:49+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0080s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:56:51+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0090s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0080s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0160s ]
+
+[ 2017-11-28T10:56:53+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0110s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0100s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T10:56:55+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0220s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0200s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0130s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0190s ]
+
+[ 2017-11-28T10:56:57+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:00:13+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0080s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:00:24+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0080s ]
+
+[ 2017-11-28T11:00:25+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:00:25' WHERE ( proposal_id=37 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=37 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:00:45+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:00:51+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0030s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-28T11:00:52+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:00:52' WHERE ( proposal_id=37 ) [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=37 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:01:06+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:01:08+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:01:08' WHERE ( proposal_id=37 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=37 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:01:11+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:01:11' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:01:17+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0080s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:02:30+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:02:33+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:02:33' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:02:47+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:02:48+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=39 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: REPLACE INTO `guitar_attitude` (`user_id`,`proposal_id`,`proposal_status`,`create_time`) VALUES ('27','39','1','2017:11:28 11:02:48') [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=39 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:13+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:03:15+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0160s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:03:15' WHERE ( proposal_id=38 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0220s ]
+
+[ 2017-11-28T11:03:17+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:03:17' WHERE ( proposal_id=38 ) [ RunTime:0.0120s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:18+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:03:18' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:19+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:03:19' WHERE ( proposal_id=38 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:20+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:03:20' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:20+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:03:20' WHERE ( proposal_id=38 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:21+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:03:21' WHERE ( proposal_id=38 ) [ RunTime:0.0130s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:03:50+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:03:50' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:04:55+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-28T11:04:56+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0110s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:04:56' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:04:57+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:04:57' WHERE ( proposal_id=38 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:04:58+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:04:58' WHERE ( proposal_id=38 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0080s ]
+
+[ 2017-11-28T11:04:59+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:04:59' WHERE ( proposal_id=38 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:06:10+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0040s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0040s ]
+
+[ 2017-11-28T11:06:11+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:11' WHERE ( proposal_id=37 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=37 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:12+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:12' WHERE ( proposal_id=37 ) [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=37 ) [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:06:13+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:13' WHERE ( proposal_id=37 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=37 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:14+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:14' WHERE ( proposal_id=37 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=37 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:29+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0070s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0060s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:31+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:31' WHERE ( proposal_id=37 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=37 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:32+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:32' WHERE ( proposal_id=37 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=37 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:06:32+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=37 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:32' WHERE ( proposal_id=37 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=37 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:33+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:33' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:34+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=38 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:34' WHERE ( proposal_id=38 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=38 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:34+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=39 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:34' WHERE ( proposal_id=39 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=39 ) [ RunTime:0.0050s ]
+
+[ 2017-11-28T11:06:35+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:35' WHERE ( proposal_id=40 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=40 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:36+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:36' WHERE ( proposal_id=40 ) [ RunTime:0.0080s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=40 ) [ RunTime:0.0080s ]
+
+[ 2017-11-28T11:06:37+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0260s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:37' WHERE ( proposal_id=40 ) [ RunTime:0.0350s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=40 ) [ RunTime:0.0210s ]
+
+[ 2017-11-28T11:06:38+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0060s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:37' WHERE ( proposal_id=40 ) [ RunTime:0.0090s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=40 ) [ RunTime:0.0110s ]
+
+[ 2017-11-28T11:06:38+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0090s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='1',`create_time`='2017:11:28 11:06:38' WHERE ( proposal_id=40 ) [ RunTime:0.0070s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z+1 WHERE ( id=40 ) [ RunTime:0.0070s ]
+
+[ 2017-11-28T11:06:39+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=zProposal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `guitar_attitude` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0040s ]
+SQL: SELECT `proposal_status` FROM `guitar_attitude` WHERE ( proposal_id=40 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `guitar_attitude` SET `proposal_status`='0',`create_time`='2017:11:28 11:06:39' WHERE ( proposal_id=40 ) [ RunTime:0.0060s ]
+SQL: UPDATE `guitar_proposal` SET `z`=z-1 WHERE ( id=40 ) [ RunTime:0.0060s ]
+
+[ 2017-11-28T11:06:44+08:00 ] ::1 /WeChat//index.php?m=Home&c=Proposal&a=getProposal&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `guitar_proposal` [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+            FROM (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1)
+            LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id ORDER BY z desc LIMIT 3 [ RunTime:0.0110s ]
+SQL: SELECT id from guitar_proposal ORDER BY z desc LIMIT 3 [ RunTime:0.0050s ]
+SQL: SELECT nickName,avatarUrl,comment,guitar_proposal.create_time,z,guitar_proposal.id,guitar_attitude.proposal_status
+        from (guitar_user INNER JOIN guitar_proposal ON guitar_user.id = guitar_proposal.userid and guitar_proposal.flag = 1 and guitar_proposal.id not in (37,38,39))
+        LEFT JOIN guitar_attitude ON guitar_proposal.id = guitar_attitude.proposal_id
+        ORDER BY guitar_proposal.create_time desc LIMIT 0,10 [ RunTime:0.0060s ]
+
