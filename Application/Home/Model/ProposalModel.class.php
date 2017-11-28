@@ -13,8 +13,8 @@ class ProposalModel extends BaseModel {
     $rs = array();
     $status = array();
     $data['userid'] = S('userId');
+    $comment = $this -> textEncode($comment);
     $data['comment'] = $this -> sensitiveWords($comment);
-    $data['comment'] = $this -> textEncode($data['comment']);
     $data['comment'] = $data['comment'] ? 0 : $comment;
     $data['create_time'] = date('Y:m:d H:i:s',time());
     $data['z'] = 0;
@@ -33,6 +33,7 @@ class ProposalModel extends BaseModel {
       $status['status'] = 39002;
       $status['msg'] = '请删除敏感词汇咯';
     }
+    $status['comment'] = $data['comment'];
     return $status;
   }
 
