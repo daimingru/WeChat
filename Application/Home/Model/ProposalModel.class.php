@@ -33,7 +33,6 @@ class ProposalModel extends BaseModel {
       $status['status'] = 39002;
       $status['msg'] = '请删除敏感词汇咯';
     }
-    $status['comment'] = $data['comment'];
     return $status;
   }
 
@@ -44,7 +43,11 @@ class ProposalModel extends BaseModel {
             FROM (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1 and __PREFIX__proposal.z > 0)
             LEFT JOIN __PREFIX__attitude ON __PREFIX__proposal.id = __PREFIX__attitude.proposal_id ORDER BY z desc LIMIT 3';
     $rs 	= $this->query($sql);
+
     if($rs){
+      foreach ($rs as $key => $value) {
+        $rs[$key]['comment'] = $this -> textEncode($value['comment']);
+      }
       $data['top'] = $rs;
       $data['new'] = $this -> getNewProposal($page,count($data['top']));
       $data['status'] = 200;
@@ -99,6 +102,9 @@ class ProposalModel extends BaseModel {
 
     $rs 	= $this->query($sqlNew);
 
+    foreach ($rs as $key => $value) {
+      $rs[$key]['comment'] = $this -> textEncode($value['comment']);
+    }
 
     return $rs;
   }
