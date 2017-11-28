@@ -20,7 +20,7 @@ class ProposalModel extends BaseModel {
     $data['z'] = 0;
     $User = M("proposal");
     if($data['comment']){
-      // $rs = $User->add($data);
+      $rs = $User->add($data);
       if(!$rs){
         $status['status'] = 39001;
         $status['msg'] = '请不要乱搞';
@@ -33,7 +33,6 @@ class ProposalModel extends BaseModel {
       $status['status'] = 39002;
       $status['msg'] = '请删除敏感词汇咯';
     }
-    $status['comment'] = $this -> textEncode($comment).'1';
     return $status;
   }
 

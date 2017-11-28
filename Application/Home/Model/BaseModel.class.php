@@ -58,11 +58,11 @@ class BaseModel extends Model {
   	 * 微信emoji表情取出处理
   	 */
     public function textDecode($text){
-      $text = json_encode($str); //暴露出unicode
-      $text = preg_replace_callback('/\\\\\\\\/i',function($str){
-          return '\\';
-      },$text); //将两条斜杠变成一条，其他不动
-      return json_decode($text);
+      $txtContent=json_encode($text);
+      $txtContent=preg_replace_callback ('#(\\\u263a|\\\u2728|\\\u2b50|\\\u2753|\\\u270a|\\\u261d|\\\u2757|\\\ud[0-9a-f]{3})#',function($matches){ print_r($matches);return  stripslashes($matches[1]);}, $txtContent);
+      $txtContent=json_decode($txtContent);
+
+      return $txtContent;
     }
 
     /**
