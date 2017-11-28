@@ -46,10 +46,12 @@ class BaseModel extends Model {
     /**
   	 * 微信emoji表情存入处理
   	 */
-  	public function textEncode($str){
-      $tmpStr = json_encode($str); //暴露出unicode
-      $tmpStr = preg_replace("#(\\\ue[0-9a-f]{3})#ie","addslashes('\\1')",$tmpStr); //将emoji的unicode留下，其他不动
-      return json_decode($tmpStr);
+  	public function textEncode($text){
+      $txtContent=json_encode($text);
+      $txtContent=preg_replace_callback ('#(\\\u263a|\\\u2728|\\\u2b50|\\\u2753|\\\u270a|\\\u261d|\\\u2757|\\\ud[0-9a-f]{3}\\\ud[0-9a-f]{3})#',function($matches){ return  addslashes($matches[1]);}, $txtContent);
+      $txtContent=json_decode($txtContent);
+
+      return $txtContent;
   	}
 
     /**
