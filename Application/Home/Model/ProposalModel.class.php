@@ -14,6 +14,7 @@ class ProposalModel extends BaseModel {
     $status = array();
     $data['userid'] = S('userId');
     $data['comment'] = $this -> sensitiveWords($comment);
+    $data['comment'] = $this -> textEncode($data['comment']);
     $data['comment'] = $data['comment'] ? 0 : $comment;
     $data['create_time'] = date('Y:m:d H:i:s',time());
     $data['z'] = 0;
