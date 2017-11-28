@@ -36,41 +36,68 @@ class ProposalModel extends BaseModel {
     return $status;
   }
 
-  //获取最3条建议
+  //获取最热3条建议
   public function getProposal($page){
     $data = array();
     $sql  = 'SELECT nickName,avatarUrl,comment,__PREFIX__proposal.create_time,z,__PREFIX__proposal.id,__PREFIX__attitude.proposal_status
-            FROM (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1)
+            FROM (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1 and __PREFIX__proposal.z > 0)
             LEFT JOIN __PREFIX__attitude ON __PREFIX__proposal.id = __PREFIX__attitude.proposal_id ORDER BY z desc LIMIT 3';
     $rs 	= $this->query($sql);
     if($rs){
       $data['top'] = $rs;
-      $data['new'] = $this -> getNewProposal($page);
+      $data['new'] = $this -> getNewProposal($page,count($data['top']));
       $data['status'] = 200;
     }else{
-      $data['status'] = 31404;
+      $data['new'] = $this -> getNewProposal($page,count($data['top']));
+      $data['status'] = 200;
     }
 
     return $data;
   }
 
   //获取最新建议
-  public function getNewProposal($page){
+  public function getNewProposal($page,$length){
     $data = array();
     $page = ( $page - 1 ) * 10;
-    $sql  = 'SELECT id from __PREFIX__proposal ORDER BY z desc LIMIT 3';
-    $rs 	= $this->query($sql);
+    $rs = array();
+    if( $length >= 3 ){
 
-    foreach ($rs as $key => $value) {
-      $rs[$key] = $value['id'];
+      $length = 3;
+      $sql  = 'SELECT id from __PREFIX__proposal ORDER BY z desc LIMIT '.$length;
+      $rs 	= $this->query($sql);
+      foreach ($rs as $key => $value) {
+        $rs[$key] = $value['id'];
+      }
+
+      $sqlNew = 'SELECT nickName,avatarUrl,comment,__PREFIX__proposal.create_time,z,__PREFIX__proposal.id,__PREFIX__attitude.proposal_status
+          from (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1 and __PREFIX__proposal.id not in ('.join(',',$rs).'))
+          LEFT JOIN __PREFIX__attitude ON __PREFIX__proposal.id = __PREFIX__attitude.proposal_id
+          ORDER BY __PREFIX__proposal.create_time desc LIMIT '.$page.',10';
+
+    }elseif( $length == 0 ){
+
+      $sqlNew = 'SELECT nickName,avatarUrl,comment,__PREFIX__proposal.create_time,z,__PREFIX__proposal.id,__PREFIX__attitude.proposal_status
+          from (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1 )
+          LEFT JOIN __PREFIX__attitude ON __PREFIX__proposal.id = __PREFIX__attitude.proposal_id
+          ORDER BY __PREFIX__proposal.create_time desc LIMIT '.$page.',10';
+
+    }else{
+
+      $sql  = 'SELECT id from __PREFIX__proposal ORDER BY z desc LIMIT '.$length;
+      $rs 	= $this->query($sql);
+      foreach ($rs as $key => $value) {
+        $rs[$key] = $value['id'];
+      }
+
+      $sqlNew = 'SELECT nickName,avatarUrl,comment,__PREFIX__proposal.create_time,z,__PREFIX__proposal.id,__PREFIX__attitude.proposal_status
+          from (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1 and __PREFIX__proposal.id not in ('.join(',',$rs).'))
+          LEFT JOIN __PREFIX__attitude ON __PREFIX__proposal.id = __PREFIX__attitude.proposal_id
+          ORDER BY __PREFIX__proposal.create_time desc LIMIT '.$page.',10';
+
     }
 
-    $sql = 'SELECT nickName,avatarUrl,comment,__PREFIX__proposal.create_time,z,__PREFIX__proposal.id,__PREFIX__attitude.proposal_status
-        from (__PREFIX__user INNER JOIN __PREFIX__proposal ON __PREFIX__user.id = __PREFIX__proposal.userid and __PREFIX__proposal.flag = 1 and __PREFIX__proposal.id not in ('.join(',',$rs).'))
-        LEFT JOIN __PREFIX__attitude ON __PREFIX__proposal.id = __PREFIX__attitude.proposal_id
-        ORDER BY __PREFIX__proposal.create_time desc LIMIT '.$page.',10';
+    $rs 	= $this->query($sqlNew);
 
-    $rs 	= $this->query($sql);
 
     return $rs;
   }
