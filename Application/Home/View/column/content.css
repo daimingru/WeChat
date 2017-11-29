@@ -1,0 +1,240 @@
+#banner{
+    width: 100%;
+}
+h1{
+    font-size: 0.8rem;
+    line-height: 1;
+    margin: 0.8rem 0.6rem 0.52rem;
+    font-weight: bold;
+    color: #333;
+}
+.info{
+    color: #333;
+    font-size: 0.4rem;
+    line-height: 0.64rem;
+    margin: 0 0.6rem 1.2rem;
+}
+.info img{
+    width: 0.64rem;
+    height: 0.64rem;
+    margin-right: 0.2rem;
+    vertical-align: bottom;
+    border-radius: 0.32rem;
+}
+.player{
+    margin: 0 0.6rem;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    font-size: 0.4rem;
+    color: #666;
+    padding: 0.6rem;
+    line-height: 1;
+}
+.player .title{
+    font-size: 0.56rem;
+    color: #333;
+    width: 70%;
+    line-height: 1.68rem;
+}
+.player .button{
+    width: 1.68rem;
+    height: 1.68rem;
+    border-radius: 0.84rem;
+    position: relative;
+    /*background: #3872cd;*/
+}
+.player .switch {
+    /*position: absolute;
+    left: 0.08rem;
+    top: 0.08rem;*/
+    margin: 0.08rem 0 0 0.08rem;
+    width: 1.52rem;
+    height: 1.52rem;
+    background: #fff;
+    border-radius: 0.76rem;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 222;
+    padding-top: 0.08rem;
+}
+.player .play{
+    width: 1.36rem;
+    height: 1.36rem;
+    margin-left: 0.08rem;
+    background: #3872cd;
+    border-radius: 0.68rem;
+}
+#icon-play{
+    width: 1.68rem;
+    height: 1.68rem;
+}
+#icon-pause{
+    width: 0.4rem;
+    height: 0.6rem;
+}
+.play svg{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#fan{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    z-index: 2;
+}
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.process-bar{
+    margin: 0.6rem 0;
+    height: 0.16rem;
+    background: #F2F3F6;
+    position: relative;
+    user-select: none;
+    border-radius: 0.08rem;
+}
+#track{
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: #3872cd;
+    border-radius: 2px;
+}
+#indicator{
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    top: -6px;
+    position: absolute;
+    z-index: 222;
+}
+#indicator:after{
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #3872cd;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.labels{
+    margin: 0.4rem 0.6rem 1.2rem;
+}
+.content{
+    margin: 0 0.6rem;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+    color: #141414;
+}
+.share{
+    margin-bottom: 2.6rem;
+}
+.advert{
+    position: relative;
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+}
+.left-tip{
+    font-size: 0.48rem;
+    line-height: 0.6rem;
+    font-weight: bold;
+    background: linear-gradient(180deg, rgba(255,255,255,0.84),rgba(255,255,255,1));
+    padding:0.8rem 0 2rem;
+    text-align: center;
+    color: #000;
+}
+.advert-img a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.48rem;
+    line-height: 0.6rem;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.advert-img .bg{
+    height: 8.24rem;
+    background: #1956B6 url('../img/envelope.png') no-repeat;
+    background-size: 100%;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
+}
+.advert-img .blue{
+    color: #68A2FF;
+    font-weight: bold;
+}
+.advert-img .sm{
+    font-size: 0.4rem;
+    line-height: 0.56rem;
+}
+.advert-img .lg{
+    font-size: 0.8rem;
+    line-height: 1;
+}
+.advert-img .m-f{
+    padding-top: 0.56rem;
+    font-size: 0.6rem;
+}
+.m-l{
+    letter-spacing: 0.14rem;
+}
+.advert-img .m-s{
+    margin: 2.48rem 0 0.24rem;
+}
+.advert-img .m-t{
+    margin-bottom: 0.24rem;
+}
+.advert-img .btn{
+    padding: 0.4rem 2.32rem;
+    background: #FFA100;
+    margin-top: -0.76rem;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
+}
+.footer-bar{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #322928;
+    padding: 0.64rem 0.6rem 0.64rem 0.8rem;
+    font-size: 0.56rem;
+    line-height: 1;
+    color: #fff;
+    box-sizing: border-box;
+}
+.footer-bar .em{
+    color: #448CFF;
+    font-weight: bold;
+}
+.footer-bar p + p{
+    margin-top: 0.2rem;
+}
+.footer-bar .btn{
+    margin-top: 0.14rem;
+}

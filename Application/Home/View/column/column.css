@@ -1,0 +1,486 @@
+/**
+ * @fileOverview reset
+ * @author y.g.q
+ */
+
+
+
+/** 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td, menu /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+/** 设置默认字体 **/
+body,button, input, select, textarea /* for ie */ {
+    font: 14px/1.5 "Microsoft YaHei", "\5b8b\4f53", arial, helvetica, sans-serif, tahoma;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol, li { list-style: none; }
+
+/** 重置文本格式元素 **/
+sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%;outline: 0;resize: none; } /* 使得表单元素在 ie 下能继承字体大小 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 设置默认宽高 */
+html, body {width: 100%; height: 100%;}
+
+
+html{
+    -webkit-text-size-adjust: none;
+}
+body{
+    height: auto;
+    padding-bottom: .44rem;
+}
+.body{
+    padding: 0;
+    min-height: 100%;
+    background: #F2F3F6;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+div{
+    -webkit-tap-highlight-color: transparent;
+}
+p{
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: .04rem;
+    color: #fff;
+}
+.banner{
+    height: 2.2rem;
+    position: relative;
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+    margin-bottom: .2rem;
+}
+.banner-y{
+    margin-bottom: 0;
+}
+.banner p{
+    position: absolute;
+    color: #FFFFFF;
+    left: .15rem;
+    padding: 0 .07rem;
+}
+.banner .title{
+    bottom: .33rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .18rem;
+    background: rgba(68,140,255,.8);
+}
+.banner .title-sec{
+    bottom: .15rem;
+    font-size: .10rem;
+    height: .18rem;
+    line-height: .18rem;
+    background: rgba(68,140,255,.5);
+}
+.section {
+    padding: 0 .12rem 0 0;
+}
+section h4 {
+    height: .15rem;
+    overflow: hidden;
+    padding-bottom: .10rem;
+    background: #fff;
+}
+section h4 span{
+    height: .15rem;
+    line-height: .15rem;
+    display: block;
+    float: right;
+    font-size: .12rem;
+    color: #333;
+}
+section h4 span:first-child{
+    float: left;
+    font-size: .15rem;
+    padding-left: .15rem;
+    border-left: .03rem solid #3872CD;
+}
+section .content{
+    margin-bottom: .3rem;
+    padding-left: .15rem;
+}
+section .content p{
+    font-size: .12rem!important;
+    line-height: 200%!important;
+    color: #333!important;
+    text-align: justify!important;
+}
+section .chapter{
+    border-left: .01rem solid #C8C8C8;
+    margin-left: .15rem;
+    padding-left: .15rem;
+}
+section .chapter .chapter-list{
+    position: relative;
+    top: -0.08rem;
+    margin-top: 0.08rem;
+}
+section .chapter h5{
+    color: #333;
+    font-size: .12rem;
+    margin-bottom: .08rem;
+    font-weight: normal;
+    position: relative;
+}
+section .chapter h5::before{
+    content: '';
+    display: block;
+    width: .07rem;
+    height: .07rem;
+    background: #36D1AE;
+    position: absolute;
+    border-radius: 50%;
+    left: -.16rem;
+    top: 50%;
+    margin-left: -.035rem;
+    margin-top: -.035rem;
+}
+section .chapter h2{
+    color: #333;
+    font-size: .15rem;
+    font-weight: normal;
+    margin-bottom: .1rem;
+}
+section .chapter p{
+    color: #666;
+    font-size: .12rem;
+    line-height: 150%;
+    margin-bottom: .08rem;
+}
+section .chapter h6{
+    color: #666;
+    font-size: .10rem;
+    line-height: 150%;
+    font-weight: normal;
+    margin-bottom: .08rem;
+    padding-bottom: .15rem;
+}
+section .chapter i{
+    width: .09rem;
+    height:  .09rem;
+    background: #999;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: .077rem;
+}
+section .chapter i::before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -.015rem;
+    margin-top: -.036rem;
+    border-top: .036rem solid transparent;
+    border-left: .03rem solid #fff;
+    border-bottom: .036rem solid transparent;
+}
+.footerfixed {
+    width: 100%;
+    height: .44rem;
+    display: table;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footerfixed .share{
+    width: 1.15rem;
+    height: .44rem;
+    text-align: center;
+    background: rgba(246,246,246,.8);
+    display: table-cell;
+    vertical-align: middle;
+}
+.footerfixed .share img{
+    width: .2rem;
+    margin-right: .05rem;
+    vertical-align: middle;
+}
+.footerfixed .share div{
+    display: inline-block;
+    font-size: .1rem;
+    color: #333333;
+    line-height: .13rem;
+    vertical-align: middle;
+}
+.footerfixed .subscribe{
+    width: 2.6rem;
+    height: .44rem;
+    color: #fff;
+    font-size: .15rem;
+    background: #FFA100;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.footerfixed .subscribe del{
+    font-size: .12rem;
+    margin-right: .15rem;
+}
+.suspension{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    height: .65rem;
+    background: #322928;
+}
+.suspension .table-box{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.suspension h4{
+    font-size: .14rem;
+    font-weight: normal;
+    line-height: 100%;
+}
+.suspension h3{
+    font-size: .19rem;
+    line-height: 100%;
+    font-weight: normal;
+    letter-spacing: .038rem;
+}
+.suspension img{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: block;
+    border-radius: .09rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+.suspension .table-td{
+    display: table-cell;
+    vertical-align: middle;
+}
+.suspension .table-td:first-child{
+    width: .65rem;
+}
+
+.suspension a{
+    display: block;
+    width: .66rem;
+    height: .25rem;
+    color: #fff;
+    font-size: .12rem;
+    line-height: .25rem;
+    background: #3872CD;
+    border-radius: .04rem;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-right: .15rem;
+}
+.left-tip{
+    font-size: 0.12rem;
+    height: 0.6rem;
+    background: linear-gradient(180deg, rgba(255,255,255,0.84),rgba(255,255,255,1));
+}
+.advert{
+    position: relative;
+    top: -.6rem;
+}
+.advert-img{
+    padding: 0 .15rem;
+}
+.advert-img a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.16rem;
+    line-height: 0.15rem;
+    color: #fff;
+    text-align: center;
+    padding-bottom: .25rem;
+}
+.advert-img .bg{
+    height: 2.06rem;
+    background: url('/app2.0/vm/content/img/envelope_47cf885.png') no-repeat;
+    background-size: 100%;
+    border-radius: 0.075rem;
+    box-shadow: 0 0 0.09rem rgba(0, 0, 0, 0.4);
+}
+.advert-img .blue{
+    color: #68A2FF;
+    font-weight: bold;
+}
+.advert-img .m-a{
+    font-size: 0.12rem;
+    letter-spacing: 0.056rem;
+}
+.advert-img .sm{
+    font-size: 0.1rem;
+}
+.advert-img .lg{
+    font-size: 0.2rem;
+    line-height: 1;
+}
+.advert-img .m-f{
+    padding-top: 0.14rem;
+}
+.advert-img .m-s{
+    margin: 0.62rem 0 0.06rem;
+}
+.advert-img .m-t{
+    margin-bottom: 0.06rem;
+}
+.advert-img .btn{
+    width: 2.32rem;
+    height: .37rem;
+    line-height: .37rem;
+    display: block;
+    font-size: .13rem;
+    margin:-0.19rem auto 0 auto;
+    background: #FFA100;
+    box-shadow: 0 0 0.09rem rgba(0, 0, 0, 0.5);
+}
+
+section .nav{
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .15rem;
+    background: #fff;
+}
+section .nav a{
+    display: block;
+    float: left;
+    width: 50%;
+    color: #3872CD;
+    text-align: center;
+}
+section .nav span{
+    display: inline-block;
+    position: relative;
+}
+section .nav .select::before{
+    content: '';
+    display: block;
+    width: .5rem;
+    height: .03rem;
+    left: 50%;
+    margin-left: -.25rem;
+    bottom: 0;
+    position: absolute;
+    background: #3872CD;
+    border-radius: 1rem;
+}
+
+.article{
+    padding: .15rem .15rem .01rem .15rem;
+    background: #F2F3F6;
+}
+.article .list{
+    background: #fff;
+    border-radius: .08rem;
+    overflow: hidden;
+    margin-bottom: .15rem;
+}
+.article .list .descimg{
+    height: 135px;
+    overflow: hidden;
+}
+.article .list .content{
+    padding: .15rem .15rem .18rem .15rem;
+}
+.article i{
+    width: .09rem;
+    height:  .09rem;
+    background: #999;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: .077rem;
+}
+.article i::before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -.015rem;
+    margin-top: -.036rem;
+    border-top: .036rem solid transparent;
+    border-left: .03rem solid #fff;
+    border-bottom: .036rem solid transparent;
+}
+.article .time{
+    width: .45rem;
+    background: rgba(238, 238, 238, 0.58);
+    border-radius: .15rem;
+    font-size: .1rem;
+    color: #929292;
+    height: .16rem;
+    line-height: .16rem;
+    text-align: center;
+}
+.article h6{
+    font-size: .15rem;
+    color: #333333;
+    line-height: 1;
+    margin-bottom: .05rem;
+}
+.article small{
+    font-size: .1rem;
+    color: #999999;
+    line-height: 1;
+}
+.article p {
+    font-size: .12rem;
+    color: #333333;
+    line-height: 200%;
+    margin-top: .08rem;
+    margin-bottom: .07rem;
+}
+
+.tab-child{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.desc{
+    min-height: 5.53rem;
+    background: #F2F3F6;
+    padding-top: .2rem;
+}
+.desc h4{
+    background: #F2F3F6;
+}
+.desc p{
+    padding-right: .15rem;
+}

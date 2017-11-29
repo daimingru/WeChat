@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./column.css" />
+    <script src="./adaptive.js"></script>
+    <script src="./template.js"></script>
+    <script>
+        window['adaptive'].desinWidth = 375;
+        window['adaptive'].baseFont = 28;
+        window['adaptive'].maxWidth = 750;
+        window['adaptive'].init();
+    </script>
+  </head>
+  <body>
+    <div id="box"></div>
+
+    <script id="banner_template" type="text/html">
+    <div class="banner" style="background-image:url({{expertTopic.faceImg}});">
+      <p class="title">{{expertTopic.title}}</p>
+      <p class="title-sec">{{expertTopic.buyPoint}}</p>
+    </div>
+    <section class="section">
+      <h4>
+        <span>专栏简介</span>
+        <!--<span>2394人已订阅</span>-->
+      </h4>
+      <div class="content">
+        {{#expertTopic.simpleContent}}
+      </div>
+      <h4>
+        <span>订阅须知</span>
+      </h4>
+      <div class="content">
+        {{#expertTopic.subNeedKnow}}
+      </div>
+      <h4>
+        <span>课程内容</span>
+      </h4>
+      <div class="chapter">
+
+        {{each talk}}
+          <div class="chapter-list">
+            <h5>{{$value.creatTime}}</h5>
+            <h2>{{$value.talkTitle}}</h2>
+            <p>{{$value.talkSimpleContent}}</p>
+            <h6><i></i>专家亲述: {{$value.talkAudioTime}}</h6>
+          </div>
+        {{/each}}
+        
+      </div>
+    </section>
+
+    <div class="footerfixed">
+      <div class="share">
+        <img src="./share2.png" alt="">
+        <div>
+          <p>请朋友</p>
+          <p>免费读</p>
+        </div>
+      </div>
+      {{if expertTopic.isFree}}
+        <div class="subscribe">
+          <del>199元/年</del>
+          <span>限时免费 立即订阅</span>
+        </div>
+      {{else}}
+        <div class="subscribe">
+          <small>199元/年</small>
+          <span>立即订阅</span>
+        </div>
+      {{/if}}
+    </div>
+    
+    <!--<div class="advert">
+        <div class="left-tip">
+        </div>
+        <div class="advert-img">
+            <a href="http://parent-app.webview.okjiaoyu.cn/downApp.html">
+                <div class="bg">
+                    <p class="m-f blue">OKAY+专栏</p>
+                    <p class="m-a blue">限时免费啦</p>
+                    <p class="m-s blue sm">FREE TIME LIMIT</p>
+                    <p class="m-t lg">一次订阅听一年 | 专家支招更有效</p>
+                    <p class="sm">免费时间 12月1日-12月11日</p>
+                </div>
+                <button class="btn">下载APP，订阅专家</button>
+            </a>
+        </div>
+    </div>-->
+
+    <!--<div class="suspension">
+      <div class="table-box">
+        <div class="table-td">
+          <img src="./images/icon.png" alt="" />
+        </div>
+        <div class="table-td">
+          <h4>OKAY+家庭教育专栏</h4>
+          <h3>限时免费订阅</h3>
+        </div>
+        <div class="table-td">
+          <a href="#">下载APP</a>
+        </div>
+      </div>
+    </div>-->
+
+    </script>
+    <script src='./columnn.js' type='text/javascript'></script>
+    <script type="text/javascript">
+<!--          getSubscribed();-->
+          function getSubscribed(data){
+              
+            document.getElementById('box').innerHTML = template('banner_template', data);
+            column.init(data);
+          }
+    </script>
+
+  </body>
+</html>
+
+    
