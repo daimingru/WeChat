@@ -4,7 +4,7 @@ use Think\Controller;
 class IndexController extends Controller {
     public function index(){
       $this->assign("selectStatus", "index");
-      $this->display("column/column_y");
+      $this->display("index/index");
     }
 
     //后台登录
