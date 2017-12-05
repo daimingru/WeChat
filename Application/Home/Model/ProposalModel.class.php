@@ -26,6 +26,7 @@ class ProposalModel extends BaseModel {
         $status['msg'] = '请不要乱搞';
       }else{
         $status['status'] = 200;
+        $data['id'] = $rs;
         $status['data'] = $data;
         $status['msg'] = '发表成功';
       }
