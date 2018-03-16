@@ -65,7 +65,12 @@ class TestController extends Controller {
   //豆瓣电影下拉加载
   public function down(){
 
-    $data = file_get_contents('Application/Home/json/doubandown.json');
+    $userinfo = I('tabId');
+    if( $userinfo == 'hot' ){
+      $data = file_get_contents('Application/Home/json/doubandown.json');
+    }else{
+      $data = file_get_contents('Application/Home/json/doubandowna.json');
+    }
     $data = json_decode($data, true);
     $this->ajaxReturn($data);
 
