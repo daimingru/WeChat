@@ -53,4 +53,31 @@ class TestController extends Controller {
 
   }
 
+  //豆瓣电影上拉刷新
+  public function up(){
+
+    $data = file_get_contents('Application/Home/json/doubanup.json');
+    $data = json_decode($data, true);
+    $this->ajaxReturn($data);
+
+  }
+
+  //豆瓣电影下拉加载
+  public function down(){
+
+    $data = file_get_contents('Application/Home/json/doubandowm.json');
+    $data = json_decode($data, true);
+    $this->ajaxReturn($data);
+
+  }
+
+  //豆瓣电影地区刷新
+  public function city(){
+
+    $data = file_get_contents('Application/Home/json/doubancity.json');
+    $data = json_decode($data, true);
+    $this->ajaxReturn($data);
+
+  }
+
 }
