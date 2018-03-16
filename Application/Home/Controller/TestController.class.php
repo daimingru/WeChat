@@ -43,4 +43,14 @@ class TestController extends Controller {
     $this->ajaxReturn($data);
   }
 
+
+  //豆瓣电影获取load电影列表
+  public function load(){
+
+    $data = file_get_contents('Application/Home/json/douban.json');
+    $data = json_decode($data, true);
+    $this->ajaxReturn($data);
+
+  }
+
 }
