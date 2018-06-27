@@ -1,12 +1,12 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+use Libs\Util\WeChat;
 class IndexController extends Controller {
 
     public function index(){
 
-      import('@.Libs.Util.WeChat');
-      new JSSDK();
+      $foo = new JSSDK();
       $this->assign("selectStatus", "index");
       $this->display("index/index");
     }
