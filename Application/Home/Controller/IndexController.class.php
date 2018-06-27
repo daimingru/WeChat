@@ -4,7 +4,8 @@ use Think\Controller;
 class IndexController extends Controller {
 
     public function index(){
-      Vendor('Util.WeChat');
+
+      import('@.Libs.Util.WeChat');
       new JSSDK();
       $this->assign("selectStatus", "index");
       $this->display("index/index");
