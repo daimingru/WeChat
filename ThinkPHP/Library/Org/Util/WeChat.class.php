@@ -1,4 +1,6 @@
 <?php
+namespace Org\Util;
+
 class JSSDK {
   private $appId;
   private $appSecret;
