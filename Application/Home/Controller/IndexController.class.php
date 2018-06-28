@@ -7,7 +7,7 @@ class IndexController extends Controller {
 
     public function index(){
         $foo = new WeChat();
-        $WeChat = $foo->getSignPackage('wx7fde6fb244527847','e61d08e0555fdd397d2c2111d685bc18');
+        $WeChat = $foo->getSignPackage();
         $this->assign("selectStatus", $WeChat);
         $this->display("index/index");
     }
