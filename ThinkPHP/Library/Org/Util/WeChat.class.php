@@ -2,8 +2,13 @@
 namespace Org\Util;
 
 class WeChat {
-  private $appId = 'wx7fde6fb244527847';
-  private $appSecret = 'e61d08e0555fdd397d2c2111d685bc18';
+  private $appId;
+  private $appSecret;
+
+  public function __construct($appId, $appSecret) {
+    $this->appId = $appId;
+    $this->appSecret = $appSecret;
+  }
 
   public function getSignPackage() {
     $jsapiTicket = $this->getJsApiTicket();
