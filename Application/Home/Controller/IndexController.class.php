@@ -22,7 +22,6 @@ class IndexController extends Controller {
     public function column(){
         $foo = new WeChat();
         $WeChat = $foo->getSignPackage();
-        var_dump($WeChat);
         $this->assign("selectStatus", $WeChat);
         $this->display("index/index");
     }
