@@ -100,14 +100,14 @@
 </script>
 <script type="text/javascript">
 
-var _url = location.host.indexOf('jzapp') > -1 ? 'http://jzapp.okjiaoyu.cn/api/assistant/assistantlive/' : 'http://hotfix.middleapp.xk12.cn/api/assistant/assistantlive/';
+var _url = location.href;
 
 wx.config({
     debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
     appId: 'wx7fde6fb244527847', // 必填，公众号的唯一标识
-    timestamp: '${map.timestamp}', // 必填，生成签名的时间戳
-    nonceStr: '${map.nonceStr}', // 必填，生成签名的随机串
-    signature: '${map.signature}',// 必填，签名，见附录1
+    timestamp: '${selectStatus.nonceStr}', // 必填，生成签名的时间戳
+    nonceStr: '${selectStatus.timestamp}', // 必填，生成签名的随机串
+    signature: '${selectStatus.signature}',// 必填，签名，见附录1
     jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
 });
 
@@ -117,7 +117,7 @@ wx.ready(function(res){
     wx.onMenuShareTimeline({
         title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
         link: _url,
-        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        imgUrl: 'http://jzapp.okjiaoyu.cn/pubobservatory/sharepage/img/share-bg_8f2962d1.jpg', // 分享图标
         success: function () {
         },
         cancel: function () {
@@ -129,7 +129,7 @@ wx.ready(function(res){
         title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
         desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
         link: _url,
-        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        imgUrl: 'http://jzapp.okjiaoyu.cn/pubobservatory/sharepage/img/share-bg_8f2962d1.jpg', // 分享图标
         type: '', // 分享类型,music、video或link，不填默认为link
         dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
         success: function () {
@@ -143,7 +143,7 @@ wx.ready(function(res){
         title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
         desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
         link: _url, // 分享链接
-        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        imgUrl: 'http://jzapp.okjiaoyu.cn/pubobservatory/sharepage/img/share-bg_8f2962d1.jpg', // 分享图标
         success: function () {
         },
         cancel: function () {
@@ -155,7 +155,7 @@ wx.ready(function(res){
         title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
         desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
         link: _url, // 分享链接
-        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        imgUrl: 'http://jzapp.okjiaoyu.cn/pubobservatory/sharepage/img/share-bg_8f2962d1.jpg', // 分享图标
         success: function () {
         },
         cancel: function () {
@@ -167,7 +167,7 @@ wx.ready(function(res){
         title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
         desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
         link: _url, // 分享链接
-        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        imgUrl: 'http://jzapp.okjiaoyu.cn/pubobservatory/sharepage/img/share-bg_8f2962d1.jpg', // 分享图标
         success: function () {
         },
         cancel: function () {
