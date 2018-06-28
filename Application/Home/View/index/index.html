@@ -102,17 +102,19 @@
 
 var _url = location.href.split('#')[0];
 
-wx.config({
-    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-    appId: '{$selectStatus.appId}', // 必填，公众号的唯一标识
-    timestamp: '{$selectStatus.nonceStr}', // 必填，生成签名的时间戳
-    nonceStr: '{$selectStatus.timestamp}', // 必填，生成签名的随机串
-    signature: '{$selectStatus.signature}',// 必填，签名，见附录1
-    jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
-});
+
 
 wx.ready(function(res){
 
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: '{$selectStatus.appId}', // 必填，公众号的唯一标识
+        timestamp: '{$selectStatus.nonceStr}', // 必填，生成签名的时间戳
+        nonceStr: '{$selectStatus.timestamp}', // 必填，生成签名的随机串
+        signature: '{$selectStatus.signature}',// 必填，签名，见附录1
+        jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    });
+    
     //获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
     wx.onMenuShareTimeline({
         title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
