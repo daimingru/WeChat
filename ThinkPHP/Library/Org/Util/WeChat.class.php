@@ -36,7 +36,7 @@ class WeChat {
     return $signPackage;
   }
 
-  private function createNonceStr($length = 16) {
+  public function createNonceStr($length = 16) {
     $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     $str = "";
     for ($i = 0; $i < $length; $i++) {
@@ -45,7 +45,7 @@ class WeChat {
     return $str;
   }
 
-  private function getJsApiTicket() {
+  public function getJsApiTicket() {
     // jsapi_ticket 应该全局存储与更新，以下代码以写入到文件中做示例
     $data = json_decode(file_get_contents("jsapi_ticket.json"));
     if ($data->expire_time < time()) {
@@ -69,7 +69,7 @@ class WeChat {
     return $ticket;
   }
 
-  private function getAccessToken() {
+  public function getAccessToken() {
     // access_token 应该全局存储与更新，以下代码以写入到文件中做示例
     $data = json_decode(file_get_contents("access_token.json"));
     if ($data->expire_time < time()) {
@@ -91,7 +91,7 @@ class WeChat {
     return $access_token;
   }
 
-  private function httpGet($url) {
+  public function httpGet($url) {
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_TIMEOUT, 500);
