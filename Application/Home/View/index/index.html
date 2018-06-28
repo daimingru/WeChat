@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>小程序吉他谱交流</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.2.0.js' type='text/javascript'></script>
     <style>
       *{
         margin: 0;
@@ -95,6 +96,84 @@
   window.onload =function(){
     canvas.init();
   }
+
+</script>
+<script type="text/javascript">
+
+var _url = location.host.indexOf('jzapp') > -1 ? 'http://jzapp.okjiaoyu.cn/api/assistant/assistantlive/' : 'http://hotfix.middleapp.xk12.cn/api/assistant/assistantlive/';
+
+wx.config({
+    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    appId: 'wx7fde6fb244527847', // 必填，公众号的唯一标识
+    timestamp: '${map.timestamp}', // 必填，生成签名的时间戳
+    nonceStr: '${map.nonceStr}', // 必填，生成签名的随机串
+    signature: '${map.signature}',// 必填，签名，见附录1
+    jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+});
+
+wx.ready(function(res){
+
+    //获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
+    wx.onMenuShareTimeline({
+        title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
+        link: _url,
+        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        success: function () {
+        },
+        cancel: function () {
+        }
+    });
+
+    //获取“分享给朋友”按钮点击状态及自定义分享内容接口
+    wx.onMenuShareAppMessage({
+        title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
+        desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
+        link: _url,
+        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        type: '', // 分享类型,music、video或link，不填默认为link
+        dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+        success: function () {
+        },
+        cancel: function () {
+        }
+    });
+
+    //获取“分享到QQ”按钮点击状态及自定义分享内容接口
+    wx.onMenuShareQQ({
+        title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
+        desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
+        link: _url, // 分享链接
+        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        success: function () {
+        },
+        cancel: function () {
+        }
+    });
+
+    //获取“分享到腾讯微博”按钮点击状态及自定义分享内容接口
+    wx.onMenuShareWeibo({
+        title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
+        desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
+        link: _url, // 分享链接
+        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        success: function () {
+        },
+        cancel: function () {
+        }
+    });
+
+    //获取“分享到QQ空间”按钮点击状态及自定义分享内容接口
+    wx.onMenuShareQZone({
+        title: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享标题
+        desc: '第七届世界智慧教育高峰论坛&OKAY e学本发布会视频', // 分享描述
+        link: _url, // 分享链接
+        imgUrl: document.getElementById('shareimg').src, // 分享图标
+        success: function () {
+        },
+        cancel: function () {
+        }
+    });
+})
 
 </script>
 </body>
