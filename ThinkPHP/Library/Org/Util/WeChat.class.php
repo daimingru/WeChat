@@ -1,7 +1,7 @@
 <?php
 namespace Org\Util;
 
-class JSSDK {
+class WeChat {
   private $appId;
   private $appSecret;
 
