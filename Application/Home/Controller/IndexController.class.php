@@ -20,7 +20,7 @@ class IndexController extends Controller {
     }
 
     public function column(){
-        $this->display("column/column_y");
+        $this->display("index/index");
     }
 
 }
