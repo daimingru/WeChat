@@ -6,8 +6,8 @@ class WeChat {
   private $appSecret;
 
   public function __construct($appId, $appSecret) {
-    $this->appId = $appId;
-    $this->appSecret = $appSecret;
+    $this->appId = 'wx7fde6fb244527847';
+    $this->appSecret = 'e61d08e0555fdd397d2c2111d685bc18';
   }
 
   public function getSignPackage() {
